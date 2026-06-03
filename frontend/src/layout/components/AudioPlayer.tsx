@@ -1,4 +1,42 @@
+import { usePlayerStore } from "@/stores/usePlayerStore";
+import { useEffect, useRef } from "react";
+
 const AudioPlayer = () => {
-    return <div>AudioPlayer</div>
+    const audioRef = useRef<HTMLAudioElement>(null);
+    const prevSongRef = useRef<string | null>(null);
+
+    const { currentSong, isPlaying, playNext } = usePlayerStore();
+
+    useEffect(() => {
+        if (isPlaying) audioRef.current?.play();
+        else audioRef.current?.pause();
+    }, [isPlaying]);
+
+    useEffect(() => {
+        const audio = audioRef.current;
+
+        const handleEnded = () => {
+            playNext();
+        }
+        audio?.addEventListener("ended", handleEnded)
+
+        return () => audio?.removeEventListener("ended", handleEnded);
+    }, [playNext]);
+
+    useEffect(() => {
+        const audio = audioRef.current;
+        if (!audio || !currentSong) return;
+
+        const isSongChanged = prevSongRef.current !== currentSong.audioUrl;
+
+        if (isSongChanged) {
+            audio.src = currentSong?.audioUrl;
+            audio.currentTime = 0;
+            prevSongRef.current = currentSong.audioUrl;
+            if (isPlaying) void audio.play();
+        }
+    }, [currentSong, isPlaying])
+
+    return <audio ref={audioRef} />;
 };
 export default AudioPlayer
