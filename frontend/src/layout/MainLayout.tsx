@@ -3,6 +3,8 @@ import { Outlet } from "react-router-dom";
 import LeftSideBar from "@/layout/components/LeftSideBar.tsx";
 import FriendsActivity from "@/layout/components/FriendsActivity.tsx";
 import AudioPlayer from "@/layout/components/AudioPlayer";
+import { PlaybackControls } from "@/layout/components/PlaybackControls.tsx";
+
 
 export const MainLayout = () => {
     const isMobile = false;
@@ -34,6 +36,8 @@ export const MainLayout = () => {
                     <FriendsActivity />
                 </ResizablePanel>
             </ResizablePanelGroup>
+
+            <PlaybackControls />
         </div>
     );
 };
