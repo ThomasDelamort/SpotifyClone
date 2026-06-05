@@ -30,16 +30,9 @@ export const PlaybackControls = () => {
         audio.addEventListener("timeupdate", updateTime);
         audio.addEventListener("loadedmetadata", updateDuration);
 
-        const handleEnded = () => {
-            usePlayerStore.setState({ isPlaying: false });
-        };
-
-        audio.addEventListener("ended", handleEnded);
-
         return () => {
             audio.removeEventListener("timeupdate", updateTime);
             audio.removeEventListener("loadedmetadata", updateDuration);
-            audio.removeEventListener("ended", handleEnded);
         };
     }, [currentSong]);
 
@@ -158,6 +151,7 @@ export const PlaybackControls = () => {
                             onValueChange={(value) => {
                                 setVolume(value[0]);
                                 if (audioRef.current) {
+
                                     audioRef.current.volume = value[0] / 100;
                                 }
                             }}
