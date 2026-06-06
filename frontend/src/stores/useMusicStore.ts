@@ -17,6 +17,8 @@ interface MusicStore {
     fetchFeaturedSongs: () => Promise<void>;
     fetchMadeForYouSongs: () => Promise<void>;
     fetchTrendingSongs: () => Promise<void>;
+    // fetchStats: () => Promise<void>;
+    // fetchSongs: () => Promise<void>;
 }
 
 export const useMusicStore = create<MusicStore>((set) => ({
