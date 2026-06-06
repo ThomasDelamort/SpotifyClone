@@ -4,17 +4,22 @@ import DashboardStats from "@/pages/admin/components/DashboardStats";
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
 import { Album, Music } from "lucide-react";
 import SongsTabContent from "@/pages/admin/components/SongsTabContent";
-import AlbumsTabContent from "@/pages/admin/components/AlbumsTabContent.tsx";
+import AlbumsTabContent from "@/pages/admin/components/AlbumsTabContent";
 import {useEffect} from "react";
+import { useMusicStore } from "@/stores/useMusicStore";
 
 
 const AdminPage = () => {
 
     const { isAdmin, isLoading } = useAuthStore()
 
+    const { fetchAlbums, fetchSongs, fetchStats } = useMusicStore();
+
     useEffect(() => {
-        
-    }, [])
+        fetchAlbums();
+        fetchSongs();
+        fetchStats();
+    }, [fetchAlbums, fetchSongs, fetchStats])
 
     if(!isAdmin && !isLoading) return <div>Unauthorized</div>
 
