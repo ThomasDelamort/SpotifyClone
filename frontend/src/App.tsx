@@ -6,6 +6,7 @@ import { AuthenticateWithRedirectCallback } from "@clerk/react";
 import ChatPage from "@/pages/chat/ChatPage.tsx";
 import AlbumPage from "@/pages/album/AlbumPage.tsx";
 import AdminPage from "@/pages/admin/AdminPage.tsx";
+import { Toaster } from "react-hot-toast";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                 <Route path='/albums/:albumId' element={<AlbumPage />} />
             </Route>
         </Routes>
+        <Toaster />
     </>
   )
 }
