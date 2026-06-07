@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .env.local
+
+public/albums
+public/songs
