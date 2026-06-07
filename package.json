@@ -1,0 +1,24 @@
+{
+  "name": "spotifyclone",
+  "version": "1.0.0",
+  "description": "<h1>Spotiy Clone Bar for Bar Word for Word</h1>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasDelamort/SpotifyClone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ThomasDelamort/SpotifyClone/issues"
+  },
+  "homepage": "https://github.com/ThomasDelamort/SpotifyClone#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
