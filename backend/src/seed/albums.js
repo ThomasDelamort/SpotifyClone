@@ -39,6 +39,22 @@ const seedDatabase = async () => {
                 plays: Math.floor(Math.random() * 5000),
                 duration: 220,
             },
+            {
+                title: "Breed",
+                artist: "Nirvana",
+                imageUrl: "/albums/Nevermind.jpg",
+                audioUrl: "/songs/Breed.mp3",
+                plays: Math.floor(Math.random() * 5000),
+                duration: 184,
+            },
+            {
+                title: "Lithium",
+                artist: "Nirvana",
+                imageUrl: "/albums/Nevermind.jpg",
+                audioUrl: "/songs/Lithium.mp3",
+                plays: Math.floor(Math.random() * 5000),
+                duration: 258,
+            },
         ]);
 
         // Create albums with references to song IDs
