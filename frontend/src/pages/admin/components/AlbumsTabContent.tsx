@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Library } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import AddAlbumDialog from "@/pages/admin/components/AddAlbumDialog";
 import AlbumsTable from "@/pages/admin/components/AlbumsTable";
 
 
@@ -16,7 +16,7 @@ const AlbumsTabContent = () => {
                         </CardTitle>
                         <CardDescription>Manage your album collection</CardDescription>
                     </div>
-                    <Button>+</Button>
+                    <AddAlbumDialog />
                 </div>
             </CardHeader>
 

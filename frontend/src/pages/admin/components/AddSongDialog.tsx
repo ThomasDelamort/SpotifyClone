@@ -18,8 +18,8 @@ interface NewSong {
 const AddSongDialog = () => {
 
     const { albums } = useMusicStore();
-    const [songDialogOpen, setSongDialogOpen] = useState(false);
-    const [isLoading, setIsLoading] = useState(false);
+    const [ songDialogOpen, setSongDialogOpen] = useState(false);
+    const [ isLoading, setIsLoading] = useState(false);
 
     const [newSong, setNewSong] = useState<NewSong>({
         title: "",
@@ -28,7 +28,7 @@ const AddSongDialog = () => {
         duration: "0",
     });
 
-    const [files, setFiles] = useState<{ audio: File | null, image: File | null }>({
+    const [ files, setFiles ] = useState<{ audio: File | null, image: File | null }>({
         audio: null,
         image: null,
     });
