@@ -1,0 +1,260 @@
+  [{
+    "_id": {
+      "$oid": "6a25bf1387120b03caa537e5"
+    },
+    "title": "Papercut",
+    "artist": "Linkin Park",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780813064/meru3ubxw3hriuhqe9ol.mp3",
+    "duration": 184,
+    "albumId": {
+      "$oid": "6a250cba9cf5cfc65786d1c0"
+    },
+    "createdAt": {
+      "$date": "2026-06-07T06:17:47.447Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T06:17:47.447Z"
+    },
+    "__v": 0
+  },
+  {
+  "_id": {
+    "$oid": "6a250dc49cf5cfc65786d1c2"
+  },
+  "title": "One Step Closer",
+  "artist": "Linkin Park",
+  "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+  "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780813249/x7ynp9rnlu33kqakh616.mp3",
+  "duration": 157,
+  "albumId": {
+    "$oid": "6a250cba9cf5cfc65786d1c0"
+  },
+  "createdAt": {
+    "$date": "2026-06-07T06:20:52.780Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T06:20:52.780Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a250e8d9cf5cfc65786d1c3"
+  },
+  "title": "With You",
+  "artist": "Linkin Park",
+  "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+  "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780813450/frslq0gsiopu7g8oddyv.mp3",
+  "duration": 203,
+  "albumId": {
+    "$oid": "6a250cba9cf5cfc65786d1c0"
+  },
+  "createdAt": {
+    "$date": "2026-06-07T06:24:13.856Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T06:24:13.856Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a250f079cf5cfc65786d1c4"
+  },
+  "title": "Points of Authority",
+  "artist": "Linkin Park",
+  "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+  "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780813573/m1qlvsqhmkux7bediyqw.mp3",
+  "duration": 201,
+  "albumId": {
+    "$oid": "6a250cba9cf5cfc65786d1c0"
+  },
+  "createdAt": {
+    "$date": "2026-06-07T06:26:15.173Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T06:26:15.173Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a250fbf9cf5cfc65786d1c5"
+  },
+  "title": "Crawling",
+  "artist": "Linkin Park",
+  "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+  "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780813757/ozueob3l5htzn1o8errc.mp3",
+  "duration": 209,
+  "albumId": {
+    "$oid": "6a250cba9cf5cfc65786d1c0"
+  },
+  "createdAt": {
+    "$date": "2026-06-07T06:29:19.392Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T06:29:19.392Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a2510819cf5cfc65786d1c6"
+  },
+  "title": "Runaway",
+  "artist": "Linkin Park",
+  "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+  "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780813951/ywjhz63d9z0wdyx3papd.mp3",
+  "duration": 184,
+  "albumId": {
+    "$oid": "6a250cba9cf5cfc65786d1c0"
+  },
+  "createdAt": {
+    "$date": "2026-06-07T06:32:33.942Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T06:32:33.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a2510fa9cf5cfc65786d1c7"
+  },
+  "title": "By Myself",
+  "artist": "Linkin Park",
+  "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+  "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780814070/y6wqstkhixlnnmfecd4x.mp3",
+  "duration": 190,
+  "albumId": {
+    "$oid": "6a250cba9cf5cfc65786d1c0"
+  },
+  "createdAt": {
+    "$date": "2026-06-07T06:34:34.001Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T06:34:34.001Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a2512899cf5cfc65786d1c9"
+  },
+  "title": "In the End",
+  "artist": "Linkin Park",
+  "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+  "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780814467/nfmlaa3jbkxfyce8zanr.mp3",
+  "duration": 216,
+  "albumId": {
+    "$oid": "6a250cba9cf5cfc65786d1c0"
+  },
+  "createdAt": {
+    "$date": "2026-06-07T06:41:13.163Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T06:41:13.163Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a2514b69cf5cfc65786d1ca"
+  },
+  "title": "A Place for My Head",
+  "artist": "Linkin Park",
+  "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+  "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780815028/gryabq6yxl9d97fz7orv.mp3",
+  "duration": 185,
+  "albumId": {
+    "$oid": "6a250cba9cf5cfc65786d1c0"
+  },
+  "createdAt": {
+    "$date": "2026-06-07T06:50:30.152Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T06:50:30.152Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a25154c9cf5cfc65786d1cb"
+  },
+  "title": "Forgotten",
+  "artist": "Linkin Park",
+  "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+  "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780815178/bj8d7zcffl4je2gfxamr.mp3",
+  "duration": 195,
+  "albumId": {
+    "$oid": "6a250cba9cf5cfc65786d1c0"
+  },
+  "createdAt": {
+    "$date": "2026-06-07T06:53:00.570Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T06:53:00.570Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a2515ca9cf5cfc65786d1cc"
+  },
+  "title": "Cure for the Itch",
+  "artist": "Linkin Park",
+  "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+  "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780815305/ezmyw0v1xbobsyfnnalk.mp3",
+  "duration": 158,
+  "albumId": {
+    "$oid": "6a250cba9cf5cfc65786d1c0"
+  },
+  "createdAt": {
+    "$date": "2026-06-07T06:55:06.903Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T06:55:06.903Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a2516819cf5cfc65786d1cd"
+  },
+  "title": "Pushing Me Away",
+  "artist": "Linkin Park",
+  "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+  "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780815487/hecmd6nnawoy3rlqaso7.mp3",
+  "duration": 192,
+  "albumId": {
+    "$oid": "6a250cba9cf5cfc65786d1c0"
+  },
+  "createdAt": {
+    "$date": "2026-06-07T06:58:09.596Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T06:58:09.596Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a25170a9cf5cfc65786d1ce"
+  },
+  "title": "High Voltage",
+  "artist": "Linkin Park",
+  "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812985/eikoukdura8dfpa7qefv.jpg",
+  "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780815620/ig3lrkns1fs3txfza7ir.mp3",
+  "duration": 226,
+  "albumId": {
+    "$oid": "6a250cba9cf5cfc65786d1c0"
+  },
+  "createdAt": {
+    "$date": "2026-06-07T07:00:26.815Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-07T07:00:26.815Z"
+  },
+  "__v": 0
+}]
