@@ -1,7 +1,7 @@
 import { User } from "../models/user.model.js";
 import { Message } from "../models/message.model.js";
 
-export const getAllUsers = async (req, res) => {
+export const getAllUsers = async (req, res, next) => {
     try {
         const currentUserId = req.auth.userId;
         const users = await User.find({clerkId: {$ne: currentUserId}});
@@ -16,10 +16,15 @@ export const getMessages = async (req, res, next) => {
         const myId = req.auth.userId;
         const { userId } = req.params;
 
-        const messages = await Message.find()
+        const messages = await Message.find({
+            $or: [
+                {senderId: myId, receiverId: userId},
+                {senderId: userId, receiverId: myId},
+            ]
+        }).sort( { createdAt: 1});
 
-
+        res.status(200).json(messages);
     } catch (err) {
-
+        next(err);
     }
 }
