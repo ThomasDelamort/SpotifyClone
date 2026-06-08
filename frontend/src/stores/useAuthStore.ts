@@ -1,4 +1,5 @@
 import { axiosInstance } from "@/lib/axios";
+import type { AxiosError } from "axios";
 import { create } from "zustand";
 
 interface AuthStore {
@@ -20,8 +21,9 @@ export const useAuthStore = create<AuthStore>((set) => ({
         try {
             const response = await axiosInstance.get("/admin/check");
             set({ isAdmin: response.data.admin });
-        } catch (error: any) {
-            set({ isAdmin: false, error: error.response.data.message });
+        } catch (error) {
+            const axiosError = error as AxiosError<{ message: string }>;
+            set({ isAdmin: false, error: axiosError.response?.data.message });
         } finally {
             set({ isLoading: false });
         }

@@ -1,5 +1,6 @@
 import { axiosInstance } from "@/lib/axios";
 import type { Album, Song, Stats } from "@/types";
+import type { AxiosError } from "axios";
 import toast from "react-hot-toast";
 import { create } from "zustand";
 
@@ -50,7 +51,7 @@ export const useMusicStore = create<MusicStore>((set) => ({
                 songs: state.songs.filter((song) => song._id !== id),
             }));
             toast.success("Song deleted successfully");
-        } catch (error: any) {
+        } catch (error) {
             console.log("Error in deleteSong", error);
             toast.error("Error deleting song");
         } finally {
@@ -69,8 +70,8 @@ export const useMusicStore = create<MusicStore>((set) => ({
                 ),
             }));
             toast.success("Album deleted successfully");
-        } catch (error: any) {
-            toast.error("Failed to delete album: " + error.message);
+        } catch (error) {
+            toast.error("Failed to delete album: " + (error as Error).message);
         } finally {
             set({ isLoading: false });
         }
@@ -81,8 +82,8 @@ export const useMusicStore = create<MusicStore>((set) => ({
         try {
             const response = await axiosInstance.get("/songs");
             set({ songs: response.data });
-        } catch (error: any) {
-            set({ error: error.message });
+        } catch (error) {
+            set({ error: (error as Error).message });
         } finally {
             set({ isLoading: false });
         }
@@ -93,8 +94,8 @@ export const useMusicStore = create<MusicStore>((set) => ({
         try {
             const response = await axiosInstance.get("/stats");
             set({ stats: response.data });
-        } catch (error: any) {
-            set({ error: error.message });
+        } catch (error) {
+            set({ error: (error as Error).message });
         } finally {
             set({ isLoading: false });
         }
@@ -106,8 +107,8 @@ export const useMusicStore = create<MusicStore>((set) => ({
         try {
             const response = await axiosInstance.get("/albums");
             set({ albums: response.data });
-        } catch (error: any) {
-            set({ error: error.response.data.message });
+        } catch (error) {
+            set({ error: (error as AxiosError<{ message: string }>).response?.data.message });
         } finally {
             set({ isLoading: false });
         }
@@ -118,8 +119,8 @@ export const useMusicStore = create<MusicStore>((set) => ({
         try {
             const response = await axiosInstance.get(`/albums/${id}`);
             set({ currentAlbum: response.data });
-        } catch (error: any) {
-            set({ error: error.response.data.message });
+        } catch (error) {
+            set({ error: (error as AxiosError<{ message: string }>).response?.data.message });
         } finally {
             set({ isLoading: false });
         }
@@ -130,8 +131,8 @@ export const useMusicStore = create<MusicStore>((set) => ({
         try {
             const response = await axiosInstance.get("/songs/featured");
             set({ featuredSongs: response.data });
-        } catch (error: any) {
-            set({ error: error.response.data.message });
+        } catch (error) {
+            set({ error: (error as AxiosError<{ message: string }>).response?.data.message });
         } finally {
             set({ isLoading: false });
         }
@@ -142,8 +143,8 @@ export const useMusicStore = create<MusicStore>((set) => ({
         try {
             const response = await axiosInstance.get("/songs/made-for-you");
             set({ madeForYouSongs: response.data });
-        } catch (error: any) {
-            set({ error: error.response.data.message });
+        } catch (error) {
+            set({ error: (error as AxiosError<{ message: string }>).response?.data.message });
         } finally {
             set({ isLoading: false });
         }
@@ -154,8 +155,8 @@ export const useMusicStore = create<MusicStore>((set) => ({
         try {
             const response = await axiosInstance.get("/songs/trending");
             set({ trendingSongs: response.data });
-        } catch (error: any) {
-            set({ error: error.response.data.message });
+        } catch (error) {
+            set({ error: (error as AxiosError<{ message: string }>).response?.data.message });
         } finally {
             set({ isLoading: false });
         }
