@@ -121,7 +121,11 @@ const AlbumPage = () => {
                                                 <img src={song.imageUrl} alt={song.title} className="size-10"/>
 
                                                 <div>
-                                                    <div className={`font-medium text-white`}>{song.title}</div>
+                                                    {isCurrentSong && isPlaying ? (
+                                                        <div className={`font-medium text-green-500`}>{song.title}</div>
+                                                    ) : (
+                                                        <div className={`font-medium text-white`}>{song.title}</div>
+                                                    )}
                                                     <div>{song.artist}</div>
                                                 </div>
 
