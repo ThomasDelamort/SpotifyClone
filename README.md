@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./spotify.png" alt="App logo" width="120" height="120" />
+  <img src="./frontend/public/spotify.png" alt="App logo" width="120" height="120" />
 </p>
 
 <h1 align="center">Spotify Clone</h1>
