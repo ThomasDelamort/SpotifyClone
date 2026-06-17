@@ -1,8 +1,7 @@
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { cn } from "@/lib/utils.ts";
 import { useMusicStore } from "@/stores/useMusicStore.ts";
-import { SignedIn } from "@clerk/clerk-react";
-import { HomeIcon, Library, MessageCircle } from "lucide-react";
+import { HomeIcon, Library } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button.tsx";
 import { useEffect } from "react";
 import PlaylistSkeleton from "@/components/skeleton/PlaylistSkeleton.tsx";
@@ -24,30 +23,16 @@ export const LeftSideBar = () => {
         <div className="rounded-lg bg-zinc-900 p-4">
             <div className="space-y-2">
                 <Link to={"/"}
-                  className={cn(buttonVariants(
-                      {
-                          variant: "ghost",
-                          className:"w-full justify-start text-white hover:bg-zinc-800 rounded-sm",
-                      }
-                  ))}
+                      className={cn(buttonVariants(
+                          {
+                              variant: "ghost",
+                              className:"w-full justify-start text-white hover:bg-zinc-800 rounded-sm",
+                          }
+                      ))}
                 >
-                <HomeIcon className="mr-2 size-5" />
-                <span className="hidden md:inline">Home</span>
+                    <HomeIcon className="mr-2 size-5" />
+                    <span className="hidden md:inline">Home</span>
                 </Link>
-
-                <SignedIn>
-                    <Link to={"/chat"}
-                          className={cn(buttonVariants(
-                              {
-                                  variant: "ghost",
-                                  className:"w-full justify-start text-white hover:bg-zinc-800 rounded-sm",
-                              }
-                          ))}
-                    >
-                        <MessageCircle className="mr-2 size-5" />
-                        <span className="hidden md:inline">Messages</span>
-                    </Link>
-                </SignedIn>
             </div>
         </div>
 
@@ -64,8 +49,8 @@ export const LeftSideBar = () => {
                 <div className="space-y-2">{isLoading ? (<PlaylistSkeleton />) : (
                     albums.map((album) => (
                         <Link to={`/albums/${album._id}`}
-                          key={album._id}
-                          className="p-2 hover:bg-zinc-800 rounded-md flex items-center gap-3 group cursor-pointer"
+                              key={album._id}
+                              className="p-2 hover:bg-zinc-800 rounded-md flex items-center gap-3 group cursor-pointer"
                         >
                             <img src={album.imageUrl} alt="Playlist img"
                                  className="size-12 rounded-md flex-shrink-0 object-cover"
