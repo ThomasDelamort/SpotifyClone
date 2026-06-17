@@ -1,0 +1,785 @@
+[
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "title": "Hybrid Theory",
+    "artist": "Linkin Park",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "releaseYear": 2000,
+    "songs": [
+      {
+        "$oid": "6a25c69eb0160b2807b3d2a7"
+      },
+      {
+        "$oid": "6a25c69eb0160b2807b3d2a8"
+      },
+      {
+        "$oid": "6a25c69eb0160b2807b3d2a9"
+      },
+      {
+        "$oid": "6a25c69eb0160b2807b3d2aa"
+      },
+      {
+        "$oid": "6a25c69eb0160b2807b3d2ab"
+      },
+      {
+        "$oid": "6a25c69eb0160b2807b3d2ac"
+      },
+      {
+        "$oid": "6a25c69eb0160b2807b3d2ad"
+      },
+      {
+        "$oid": "6a25c69eb0160b2807b3d2ae"
+      },
+      {
+        "$oid": "6a25c69eb0160b2807b3d2af"
+      },
+      {
+        "$oid": "6a25c69eb0160b2807b3d2b0"
+      },
+      {
+        "$oid": "6a25c69eb0160b2807b3d2b1"
+      },
+      {
+        "$oid": "6a25c69eb0160b2807b3d2b2"
+      },
+      {
+        "$oid": "6a25c69eb0160b2807b3d2b3"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297437df70788848c7760"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "title": "Meteora",
+    "artist": "Linkin Park",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "releaseYear": 2003,
+    "songs": [
+      {
+        "$oid": "6a25d6079346e592c1d893d4"
+      },
+      {
+        "$oid": "6a25d6079346e592c1d893d5"
+      },
+      {
+        "$oid": "6a25d6079346e592c1d893d6"
+      },
+      {
+        "$oid": "6a25d6079346e592c1d893d7"
+      },
+      {
+        "$oid": "6a25d6079346e592c1d893d8"
+      },
+      {
+        "$oid": "6a25d6079346e592c1d893d9"
+      },
+      {
+        "$oid": "6a25d6079346e592c1d893da"
+      },
+      {
+        "$oid": "6a25d6079346e592c1d893db"
+      },
+      {
+        "$oid": "6a25d6079346e592c1d893dc"
+      },
+      {
+        "$oid": "6a25d6079346e592c1d893dd"
+      },
+      {
+        "$oid": "6a25d6079346e592c1d893de"
+      },
+      {
+        "$oid": "6a25d6079346e592c1d893df"
+      },
+      {
+        "$oid": "6a25d6079346e592c1d893e0"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297437df70788848c7760"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "title": "Nevermind",
+    "artist": "Nirvana",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "releaseYear": 1991,
+    "songs": [
+      {
+        "$oid": "6a25d794cd563f8bccacd621"
+      },
+      {
+        "$oid": "6a25d794cd563f8bccacd622"
+      },
+      {
+        "$oid": "6a25d794cd563f8bccacd623"
+      },
+      {
+        "$oid": "6a25d794cd563f8bccacd624"
+      },
+      {
+        "$oid": "6a25d794cd563f8bccacd625"
+      },
+      {
+        "$oid": "6a25d794cd563f8bccacd626"
+      },
+      {
+        "$oid": "6a25d794cd563f8bccacd627"
+      },
+      {
+        "$oid": "6a25d794cd563f8bccacd628"
+      },
+      {
+        "$oid": "6a25d794cd563f8bccacd629"
+      },
+      {
+        "$oid": "6a25d794cd563f8bccacd62a"
+      },
+      {
+        "$oid": "6a25d794cd563f8bccacd62b"
+      },
+      {
+        "$oid": "6a25d794cd563f8bccacd62c"
+      },
+      {
+        "$oid": "6a25d794cd563f8bccacd62d"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297437df70788848c7761"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "title": "COSMIC",
+    "artist": "Bazzi",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "releaseYear": 2018,
+    "songs": [
+      {
+        "$oid": "6a25e0fb487f0b942107f084"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f085"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f086"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f087"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f088"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f089"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f08a"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f08b"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f08c"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f08d"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f08e"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f08f"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f090"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f091"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f092"
+      },
+      {
+        "$oid": "6a25e0fb487f0b942107f093"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297437df70788848c775d"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a25e409650b02128e55be1a"
+    },
+    "title": "My World",
+    "artist": "Justin Bieber",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780867676/ab67616d0000b2737c3bb9f74a98f60bdda6c9a7_fa92v5.jpg",
+    "releaseYear": 2009,
+    "songs": [
+      {
+        "$oid": "6a25e409650b02128e55be13"
+      },
+      {
+        "$oid": "6a25e409650b02128e55be14"
+      },
+      {
+        "$oid": "6a25e409650b02128e55be15"
+      },
+      {
+        "$oid": "6a25e409650b02128e55be16"
+      },
+      {
+        "$oid": "6a25e409650b02128e55be17"
+      },
+      {
+        "$oid": "6a25e409650b02128e55be18"
+      },
+      {
+        "$oid": "6a25e409650b02128e55be19"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297437df70788848c775e"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "title": "FOUR (Deluxe)",
+    "artist": "One Direction",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "releaseYear": 2014,
+    "songs": [
+      {
+        "$oid": "6a26b3cfab7f447cb633f822"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f823"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f824"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f825"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f826"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f827"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f828"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f829"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f82a"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f82b"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f82c"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f82d"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f82e"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f82f"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f830"
+      },
+      {
+        "$oid": "6a26b3cfab7f447cb633f831"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297447df70788848c7762"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "title": "Ocean Eyes",
+    "artist": "Owl City",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "releaseYear": 2009,
+    "songs": [
+      {
+        "$oid": "6a26c246b556c8a7660ddcaa"
+      },
+      {
+        "$oid": "6a26c246b556c8a7660ddcab"
+      },
+      {
+        "$oid": "6a26c246b556c8a7660ddcac"
+      },
+      {
+        "$oid": "6a26c246b556c8a7660ddcad"
+      },
+      {
+        "$oid": "6a26c246b556c8a7660ddcae"
+      },
+      {
+        "$oid": "6a26c246b556c8a7660ddcaf"
+      },
+      {
+        "$oid": "6a26c246b556c8a7660ddcb0"
+      },
+      {
+        "$oid": "6a26c246b556c8a7660ddcb1"
+      },
+      {
+        "$oid": "6a26c246b556c8a7660ddcb2"
+      },
+      {
+        "$oid": "6a26c246b556c8a7660ddcb3"
+      },
+      {
+        "$oid": "6a26c246b556c8a7660ddcb4"
+      },
+      {
+        "$oid": "6a26c246b556c8a7660ddcb5"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297447df70788848c7764"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "title": "Minutes to Midnight",
+    "artist": "Linkin Park",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "releaseYear": 2007,
+    "songs": [
+      {
+        "$oid": "6a2768b859c3d4d9bda7dc26"
+      },
+      {
+        "$oid": "6a2768b859c3d4d9bda7dc27"
+      },
+      {
+        "$oid": "6a2768b859c3d4d9bda7dc28"
+      },
+      {
+        "$oid": "6a2768b859c3d4d9bda7dc29"
+      },
+      {
+        "$oid": "6a2768b859c3d4d9bda7dc2a"
+      },
+      {
+        "$oid": "6a2768b859c3d4d9bda7dc2b"
+      },
+      {
+        "$oid": "6a2768b859c3d4d9bda7dc2c"
+      },
+      {
+        "$oid": "6a2768b859c3d4d9bda7dc2d"
+      },
+      {
+        "$oid": "6a2768b859c3d4d9bda7dc2e"
+      },
+      {
+        "$oid": "6a2768b859c3d4d9bda7dc2f"
+      },
+      {
+        "$oid": "6a2768b859c3d4d9bda7dc30"
+      },
+      {
+        "$oid": "6a2768b859c3d4d9bda7dc31"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297437df70788848c7760"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a2861c8c1ca1084896aa138"
+    },
+    "title": "Malibu Nights",
+    "artist": "LANY",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781030215/ab67616d0000b273c4dae9528b2a8408f463eb17_o6jkd5.jpg",
+    "releaseYear": 2018,
+    "songs": [
+      {
+        "$oid": "6a2861c8c1ca1084896aa12f"
+      },
+      {
+        "$oid": "6a2861c8c1ca1084896aa130"
+      },
+      {
+        "$oid": "6a2861c8c1ca1084896aa131"
+      },
+      {
+        "$oid": "6a2861c8c1ca1084896aa132"
+      },
+      {
+        "$oid": "6a2861c8c1ca1084896aa133"
+      },
+      {
+        "$oid": "6a2861c8c1ca1084896aa134"
+      },
+      {
+        "$oid": "6a2861c8c1ca1084896aa135"
+      },
+      {
+        "$oid": "6a2861c8c1ca1084896aa136"
+      },
+      {
+        "$oid": "6a2861c8c1ca1084896aa137"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297437df70788848c775f"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "title": "Dreaming Out Loud",
+    "artist": "OneRepublic",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "releaseYear": 2007,
+    "songs": [
+      {
+        "$oid": "6a28cb894a539a50f45aadb5"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadb6"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadb7"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadb8"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadb9"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadba"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadbb"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadbc"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadbd"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadbe"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadbf"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadc0"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadc1"
+      },
+      {
+        "$oid": "6a28cb894a539a50f45aadc2"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297447df70788848c7763"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "title": "Living Things",
+    "artist": "Linkin Park",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "releaseYear": 2012,
+    "songs": [
+      {
+        "$oid": "6a29715a4879e69bd3cbade6"
+      },
+      {
+        "$oid": "6a29715a4879e69bd3cbade7"
+      },
+      {
+        "$oid": "6a29715a4879e69bd3cbade8"
+      },
+      {
+        "$oid": "6a29715a4879e69bd3cbade9"
+      },
+      {
+        "$oid": "6a29715a4879e69bd3cbadea"
+      },
+      {
+        "$oid": "6a29715a4879e69bd3cbadeb"
+      },
+      {
+        "$oid": "6a29715a4879e69bd3cbadec"
+      },
+      {
+        "$oid": "6a29715a4879e69bd3cbaded"
+      },
+      {
+        "$oid": "6a29715a4879e69bd3cbadee"
+      },
+      {
+        "$oid": "6a29715a4879e69bd3cbadef"
+      },
+      {
+        "$oid": "6a29715a4879e69bd3cbadf0"
+      },
+      {
+        "$oid": "6a29715a4879e69bd3cbadf1"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297437df70788848c7760"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "title": "A Thousand Suns",
+    "artist": "Linkin Park",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "releaseYear": 2010,
+    "songs": [
+      {
+        "$oid": "6a297e717eaee9c313d2735b"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d2735c"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d2735d"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d2735e"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d2735f"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d27360"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d27361"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d27362"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d27363"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d27364"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d27365"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d27366"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d27367"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d27368"
+      },
+      {
+        "$oid": "6a297e717eaee9c313d27369"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297437df70788848c7760"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a2984667e52539e294e6b6a"
+    },
+    "title": "One More Light",
+    "artist": "Linkin Park",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105364/ab67616d0000b273145e1cf12538f5666511237d_qbl3zp.jpg",
+    "releaseYear": 2017,
+    "songs": [
+      {
+        "$oid": "6a2984657e52539e294e6b60"
+      },
+      {
+        "$oid": "6a2984657e52539e294e6b61"
+      },
+      {
+        "$oid": "6a2984657e52539e294e6b62"
+      },
+      {
+        "$oid": "6a2984657e52539e294e6b63"
+      },
+      {
+        "$oid": "6a2984657e52539e294e6b64"
+      },
+      {
+        "$oid": "6a2984657e52539e294e6b65"
+      },
+      {
+        "$oid": "6a2984657e52539e294e6b66"
+      },
+      {
+        "$oid": "6a2984657e52539e294e6b67"
+      },
+      {
+        "$oid": "6a2984657e52539e294e6b68"
+      },
+      {
+        "$oid": "6a2984657e52539e294e6b69"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297437df70788848c7760"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a2989d7c477a5a4e207fa36"
+    },
+    "title": "Waking Up",
+    "artist": "OneRepublic",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105900/wakingup_sbuplp.jpg",
+    "releaseYear": 2009,
+    "songs": [
+      {
+        "$oid": "6a2989d7c477a5a4e207fa2b"
+      },
+      {
+        "$oid": "6a2989d7c477a5a4e207fa2c"
+      },
+      {
+        "$oid": "6a2989d7c477a5a4e207fa2d"
+      },
+      {
+        "$oid": "6a2989d7c477a5a4e207fa2e"
+      },
+      {
+        "$oid": "6a2989d7c477a5a4e207fa2f"
+      },
+      {
+        "$oid": "6a2989d7c477a5a4e207fa30"
+      },
+      {
+        "$oid": "6a2989d7c477a5a4e207fa31"
+      },
+      {
+        "$oid": "6a2989d7c477a5a4e207fa32"
+      },
+      {
+        "$oid": "6a2989d7c477a5a4e207fa33"
+      },
+      {
+        "$oid": "6a2989d7c477a5a4e207fa34"
+      },
+      {
+        "$oid": "6a2989d7c477a5a4e207fa35"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297447df70788848c7763"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "title": "No Pads, No Helmets...Just Balls",
+    "artist": "Simple Plan",
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "releaseYear": 2002,
+    "songs": [
+      {
+        "$oid": "6a2ec7f55730bb880714c5b1"
+      },
+      {
+        "$oid": "6a2ec7f55730bb880714c5b2"
+      },
+      {
+        "$oid": "6a2ec7f55730bb880714c5b3"
+      },
+      {
+        "$oid": "6a2ec7f55730bb880714c5b4"
+      },
+      {
+        "$oid": "6a2ec7f55730bb880714c5b5"
+      },
+      {
+        "$oid": "6a2ec7f55730bb880714c5b6"
+      },
+      {
+        "$oid": "6a2ec7f55730bb880714c5b7"
+      },
+      {
+        "$oid": "6a2ec7f55730bb880714c5b8"
+      },
+      {
+        "$oid": "6a2ec7f55730bb880714c5b9"
+      },
+      {
+        "$oid": "6a2ec7f55730bb880714c5ba"
+      },
+      {
+        "$oid": "6a2ec7f55730bb880714c5bb"
+      },
+      {
+        "$oid": "6a2ec7f55730bb880714c5bc"
+      },
+      {
+        "$oid": "6a2ec7f55730bb880714c5bd"
+      }
+    ],
+    "__v": 0,
+    "artistId": {
+      "$oid": "6a3297447df70788848c7765"
+    }
+  }
+]

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
+import { cn, formatArtists } from "@/lib/utils";
 import { usePlayerStore } from "@/stores/usePlayerStore";
 import { Laptop2, ListMusic, Mic2, Pause, Play, Repeat, Shuffle, SkipBack, SkipForward, Volume1 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
@@ -10,8 +11,11 @@ const formatTime = (seconds: number) => {
     return `${minutes}:${remainingSeconds.toString().padStart(2, "0")}`;
 };
 
+// how many seconds into a song the back button restarts it instead of going to the previous track
+const RESTART_THRESHOLD = 3;
+
 export const PlaybackControls = () => {
-    const { currentSong, isPlaying, togglePlay, playNext, playPrevious } = usePlayerStore();
+    const { currentSong, isPlaying, togglePlay, playNext, playPrevious, currentIndex, isShuffled, toggleShuffle } = usePlayerStore();
 
     const [volume, setVolume] = useState(75);
     const [currentTime, setCurrentTime] = useState(0);
@@ -43,6 +47,21 @@ export const PlaybackControls = () => {
         setCurrentTime(value[0]);
     };
 
+    // back button: restart the current song if we're past the threshold (or there's no
+    // previous track), otherwise skip to the previous track
+    const handlePrevious = () => {
+        const audio = audioRef.current;
+        const hasPrevious = currentIndex > 0;
+
+        if ((audio && audio.currentTime > RESTART_THRESHOLD) || !hasPrevious) {
+            if (audio) audio.currentTime = 0;
+            setCurrentTime(0);
+            if (!isPlaying) togglePlay();
+        } else {
+            playPrevious();
+        }
+    };
+
     return (
         <footer className='h-20 sm:h-24 bg-zinc-900 border-t border-zinc-800 px-4'>
             <div className='flex justify-between items-center h-full max-w-450 mx-auto'>
@@ -60,7 +79,7 @@ export const PlaybackControls = () => {
                                     {currentSong.title}
                                 </div>
                                 <div className='text-sm text-zinc-400 truncate hover:underline cursor-pointer'>
-                                    {currentSong.artist}
+                                    {formatArtists(currentSong.artist)}
                                 </div>
                             </div>
                         </>
@@ -73,7 +92,12 @@ export const PlaybackControls = () => {
                         <Button
                             size='icon'
                             variant='ghost'
-                            className='hidden sm:inline-flex hover:text-white text-zinc-400'
+                            className={cn(
+                                "hidden sm:inline-flex hover:text-white",
+                                isShuffled ? "text-emerald-500 hover:text-emerald-400" : "text-zinc-400"
+                            )}
+                            onClick={toggleShuffle}
+                            disabled={!currentSong}
                         >
                             <Shuffle className='h-4 w-4' />
                         </Button>
@@ -82,7 +106,7 @@ export const PlaybackControls = () => {
                             size='icon'
                             variant='ghost'
                             className='hover:text-white text-zinc-400'
-                            onClick={playPrevious}
+                            onClick={handlePrevious}
                             disabled={!currentSong}
                         >
                             <SkipBack className='h-4 w-4' />

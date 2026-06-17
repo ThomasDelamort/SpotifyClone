@@ -12,13 +12,18 @@ export const getStats = async (req, res, next) => {
             Song.aggregate([
                 {
                     $unionWith: {
-                        coll:"albums",
-                        pipeline:[]
+                        coll: "albums",
+                        pipeline: [],
                     },
                 },
+                // song.artist is now an array; album.artist is still a string.
+                // $unwind expands arrays and treats scalars as a single element, so both work.
                 {
-                    $group:{
-                        _id:"$artist",
+                    $unwind: "$artist",
+                },
+                {
+                    $group: {
+                        _id: "$artist",
                     },
                 },
                 {

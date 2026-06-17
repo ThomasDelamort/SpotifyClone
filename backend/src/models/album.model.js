@@ -11,6 +11,13 @@ const albumSchema = new mongoose.Schema({
         required: true,
     },
 
+    // reference to the Artist collection — added alongside the legacy `artist` string
+    artistId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Artist",
+        required: false,
+    },
+
     imageUrl: {
         type: String,
         required: true,

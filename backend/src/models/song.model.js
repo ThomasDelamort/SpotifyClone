@@ -1,15 +1,26 @@
 import mongoose from "mongoose";
 
 const songSchema = new mongoose.Schema({
-   title: {
-       type: String,
-       required: true,
-   },
-
-    artist: {
+    title: {
         type: String,
         required: true,
     },
+
+    // one or more artists — supports features / collaborations
+    artist: {
+        type: [String],
+        required: true,
+        validate: {
+            validator: (v) => Array.isArray(v) && v.length > 0,
+            message: "A song needs at least one artist",
+        },
+    },
+
+    // references to the Artist collection — one per linked artist (alongside the `artist` names)
+    artistId: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Artist",
+    }],
 
     imageUrl: {
         type: String,

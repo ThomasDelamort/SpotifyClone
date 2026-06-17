@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "seed:songs": "node src/seed/songs.js",
-    "seed:albums": "node src/seed/albums.js"
+    "seed:albums": "node src/seed/albums.js",
+    "backfill:artists": "node src/seed/artists.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   "type": "module",
   "dependencies": {
     "@clerk/express": "^2.1.22",
+    "bson": "^7.2.0",
     "cloudinary": "^2.10.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",

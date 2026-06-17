@@ -1,0 +1,5102 @@
+[
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2a7"
+    },
+    "title": "Papercut",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780813064/meru3ubxw3hriuhqe9ol.mp3",
+    "duration": 184,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.311Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2a8"
+    },
+    "title": "One Step Closer",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780813249/x7ynp9rnlu33kqakh616.mp3",
+    "duration": 157,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.313Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2a9"
+    },
+    "title": "With You",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780813450/frslq0gsiopu7g8oddyv.mp3",
+    "duration": 203,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.313Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2aa"
+    },
+    "title": "Points of Authority",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780813573/m1qlvsqhmkux7bediyqw.mp3",
+    "duration": 200,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.313Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2ab"
+    },
+    "title": "Crawling",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780813757/ozueob3l5htzn1o8errc.mp3",
+    "duration": 208,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.313Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2ac"
+    },
+    "title": "Runaway",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780813951/ywjhz63d9z0wdyx3papd.mp3",
+    "duration": 183,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.313Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2ad"
+    },
+    "title": "By Myself",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780814070/y6wqstkhixlnnmfecd4x.mp3",
+    "duration": 189,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.313Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2ae"
+    },
+    "title": "In the End",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780814467/nfmlaa3jbkxfyce8zanr.mp3",
+    "duration": 216,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.313Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2af"
+    },
+    "title": "A Place for My Head",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780815028/gryabq6yxl9d97fz7orv.mp3",
+    "duration": 184,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.313Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2b0"
+    },
+    "title": "Forgotten",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780815178/bj8d7zcffl4je2gfxamr.mp3",
+    "duration": 194,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.313Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2b1"
+    },
+    "title": "Cure for the Itch",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780815305/ezmyw0v1xbobsyfnnalk.mp3",
+    "duration": 157,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.313Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2b2"
+    },
+    "title": "Pushing Me Away",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780815487/hecmd6nnawoy3rlqaso7.mp3",
+    "duration": 191,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.313Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25c69eb0160b2807b3d2b3"
+    },
+    "title": "High Voltage",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2732cd7568f8895a3c031c2e2fb_ygxguy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780815620/ig3lrkns1fs3txfza7ir.mp3",
+    "duration": 225,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T19:29:34.313Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T19:29:34.624Z"
+    },
+    "albumId": {
+      "$oid": "6a25c69eb0160b2807b3d2b4"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893d4"
+    },
+    "title": "Foreword",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780816436/q45af65mrvme0i3b2shi.mp3",
+    "duration": 13,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.233Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893d5"
+    },
+    "title": "Don't Stay",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780817031/kut38a7kfuvuhdzqxvhs.mp3",
+    "duration": 187,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.234Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893d6"
+    },
+    "title": "Somewhere I Belong",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780817186/zyjkkvcargajsohrin1h.mp3",
+    "duration": 213,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.235Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893d7"
+    },
+    "title": "Lying from You",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780817315/hb3z1byj06yjz8qk3xxy.mp3",
+    "duration": 175,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.235Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893d8"
+    },
+    "title": "Hit the Floor",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780817463/uiakls4epjpxe04kqsex.mp3",
+    "duration": 164,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.235Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893d9"
+    },
+    "title": "Easier to Run",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780817694/vvkqxjwqlx5axuaifxgt.mp3",
+    "duration": 204,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.235Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893da"
+    },
+    "title": "Faint",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780817825/ddytubosiuic66aappci.mp3",
+    "duration": 162,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.235Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893db"
+    },
+    "title": "Figure.09",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780818519/yuzvdoyjwftchcq7mj4k.mp3",
+    "duration": 197,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.235Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893dc"
+    },
+    "title": "Breaking the Habit",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780818641/i5ornighx8jgjnk50fu9.mp3",
+    "duration": 196,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.235Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893dd"
+    },
+    "title": "From the Inside",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780818741/rig1hvbmrt2tluyg4rki.mp3",
+    "duration": 174,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.235Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893de"
+    },
+    "title": "Nobody's Listening",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780818900/hnbo8qwbjhjuaiamlwna.mp3",
+    "duration": 178,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.235Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893df"
+    },
+    "title": "Session",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780819009/acnjtksxngnfysvlp6bf.mp3",
+    "duration": 143,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.235Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d6079346e592c1d893e0"
+    },
+    "title": "Numb",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780859492/ab67616d0000b2735f1f51d14e8bea89484ecd1b_jcou1d.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780819099/zsqqzqvitgj6ra9ugwci.mp3",
+    "duration": 187,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:35:19.235Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:35:20.064Z"
+    },
+    "albumId": {
+      "$oid": "6a25d6079346e592c1d893e1"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd621"
+    },
+    "title": "Smells Like Teen Spirit",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780849329/SmellsLikeTeenSpirit_dqcm5r.mp3",
+    "duration": 301,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.661Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd622"
+    },
+    "title": "In Bloom",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780856108/Nirvana_-_In_Bloom_Lyrics_Original_Sound_oydiqw.mp3",
+    "duration": 254,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.662Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd623"
+    },
+    "title": "Come as You Are",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780856936/ComeAsYouAre_bgf6ea.mp3",
+    "duration": 219,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.662Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd624"
+    },
+    "title": "Breed",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780857194/Breed_rqyv71.mp3",
+    "duration": 183,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.662Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd625"
+    },
+    "title": "Lithium",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780857327/Lithium_zkajkn.mp3",
+    "duration": 257,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.662Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd626"
+    },
+    "title": "Polly",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780857424/Polly_gcbaac.mp3",
+    "duration": 177,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.662Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd627"
+    },
+    "title": "Territorial Pissings",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780857565/TerritorialPissings_bhxud5.mp3",
+    "duration": 142,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.662Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd628"
+    },
+    "title": "Drain You",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780857593/DrainYou_gi1fdf.mp3",
+    "duration": 223,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.662Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd629"
+    },
+    "title": "Lounge Act",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780857800/LoungeAct_urv4w2.mp3",
+    "duration": 156,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.662Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd62a"
+    },
+    "title": "Stay Away",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780857843/StayAway_dfsupp.mp3",
+    "duration": 212,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.662Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd62b"
+    },
+    "title": "On a Plain",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780857823/OnAPlains_wotxsm.mp3",
+    "duration": 196,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.662Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd62c"
+    },
+    "title": "Something in the Way",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780857829/SomethingInTheWay_fxwbw3.mp3",
+    "duration": 232,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.662Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d794cd563f8bccacd62d"
+    },
+    "title": "Endless, Nameless",
+    "artist": [
+      "Nirvana"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780839316/fy339honrlyoaiesqidn.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780857864/Endless_i0xnc2.mp3",
+    "duration": 403,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T20:41:56.662Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:41:57.406Z"
+    },
+    "albumId": {
+      "$oid": "6a25d795cd563f8bccacd62e"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7761"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25d8dc98a82a40d5843a0f"
+    },
+    "title": "Eyes",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780865247/cxndplaiydtsniz15azi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780865244/rzrhm6a6epod8wjhcuaq.mp3",
+    "duration": 162,
+    "albumId": null,
+    "createdAt": {
+      "$date": "2026-06-07T20:47:24.986Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T20:47:24.986Z"
+    },
+    "__v": 0,
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f084"
+    },
+    "title": "Dreams",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780865937/Dreams_kqqayc.mp3",
+    "duration": 147,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.394Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f085"
+    },
+    "title": "Soarin",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780865966/Bazzi_-_Soarin_Official_Audio_y34abi.mp3",
+    "duration": 177,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.395Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f086"
+    },
+    "title": "Myself",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780866018/Myself_k7zryv.mp3",
+    "duration": 167,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.395Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f087"
+    },
+    "title": "Star",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780866039/Star_h9vdam.mp3",
+    "duration": 169,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.395Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f088"
+    },
+    "title": "Why?",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780866120/Why_zwuvor.mp3",
+    "duration": 148,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.396Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f089"
+    },
+    "title": "3:15",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780866134/Bazzi_-_3_15_Official_Audio_ri7pth.mp3",
+    "duration": 167,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.396Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f08a"
+    },
+    "title": "Honest",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780866259/Honest_ugycbb.mp3",
+    "duration": 175,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.396Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f08b"
+    },
+    "title": "Mirror",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780866394/Mirror_qzawfc.mp3",
+    "duration": 140,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.396Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f08c"
+    },
+    "title": "Gone",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780866760/Gone_vsz03l.mp3",
+    "duration": 132,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.396Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f08d"
+    },
+    "title": "Fantasy",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780866817/Fantasy_qxq50j.mp3",
+    "duration": 148,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.396Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f08e"
+    },
+    "title": "BRB",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780866868/BRB_j9lly5.mp3",
+    "duration": 160,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.396Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f08f"
+    },
+    "title": "Cartier",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780866943/Cartier_zwgm6r.mp3",
+    "duration": 172,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.396Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f090"
+    },
+    "title": "Beautiful",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780866997/Beautiful_gy5oje.mp3",
+    "duration": 178,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.396Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f091"
+    },
+    "title": "Mine",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780812730/jknj3qt8e3d9lbtgz0h2.mp3",
+    "duration": 131,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.396Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f092"
+    },
+    "title": "Changed",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780867189/Changed_vpiacs.mp3",
+    "duration": 143,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.396Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e0fb487f0b942107f093"
+    },
+    "title": "Somebody",
+    "artist": [
+      "Bazzi"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780812732/s8eitmrtd1yn8df3nnip.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780867190/Somebody_njzdn7.mp3",
+    "duration": 170,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:22:03.396Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:22:04.187Z"
+    },
+    "albumId": {
+      "$oid": "6a25e0fc487f0b942107f094"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e409650b02128e55be13"
+    },
+    "title": "One Time",
+    "artist": [
+      "Justin Bieber"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780867676/ab67616d0000b2737c3bb9f74a98f60bdda6c9a7_fa92v5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780867882/One_Time_cr6uzs.mp3",
+    "duration": 215,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:35:05.023Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:35:05.990Z"
+    },
+    "albumId": {
+      "$oid": "6a25e409650b02128e55be1a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e409650b02128e55be14"
+    },
+    "title": "Favorite Girl",
+    "artist": [
+      "Justin Bieber"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780867676/ab67616d0000b2737c3bb9f74a98f60bdda6c9a7_fa92v5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780867909/Favorite_Girl_nfpa9m.mp3",
+    "duration": 256,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:35:05.024Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:35:05.990Z"
+    },
+    "albumId": {
+      "$oid": "6a25e409650b02128e55be1a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e409650b02128e55be15"
+    },
+    "title": "Down to Earth",
+    "artist": [
+      "Justin Bieber"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780867676/ab67616d0000b2737c3bb9f74a98f60bdda6c9a7_fa92v5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780867898/Down_To_Earth_u5sv3a.mp3",
+    "duration": 245,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:35:05.024Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:35:05.990Z"
+    },
+    "albumId": {
+      "$oid": "6a25e409650b02128e55be1a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e409650b02128e55be16"
+    },
+    "title": "Bigger",
+    "artist": [
+      "Justin Bieber"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780867676/ab67616d0000b2737c3bb9f74a98f60bdda6c9a7_fa92v5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780867913/Bigger_jzgnfk.mp3",
+    "duration": 197,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:35:05.024Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:35:05.990Z"
+    },
+    "albumId": {
+      "$oid": "6a25e409650b02128e55be1a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e409650b02128e55be17"
+    },
+    "title": "One Less Lonely Girl",
+    "artist": [
+      "Justin Bieber"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780867676/ab67616d0000b2737c3bb9f74a98f60bdda6c9a7_fa92v5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780867978/One_Less_Lonely_Girl_iv3u0r.mp3",
+    "duration": 229,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:35:05.024Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:35:05.990Z"
+    },
+    "albumId": {
+      "$oid": "6a25e409650b02128e55be1a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e409650b02128e55be18"
+    },
+    "title": "First Dance (feat. Usher)",
+    "artist": [
+      "Justin Bieber",
+      "Usher"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780867676/ab67616d0000b2737c3bb9f74a98f60bdda6c9a7_fa92v5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780867978/Love_Me_mmrf24.mp3",
+    "duration": 222,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:35:05.024Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:35:05.990Z"
+    },
+    "albumId": {
+      "$oid": "6a25e409650b02128e55be1a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775e"
+      },
+      {
+        "$oid": "6a3297477df70788848c7766"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e409650b02128e55be19"
+    },
+    "title": "Love Me",
+    "artist": [
+      "Justin Bieber"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780867676/ab67616d0000b2737c3bb9f74a98f60bdda6c9a7_fa92v5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780867979/First_Dance_axdrvp.mp3",
+    "duration": 191,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-07T21:35:05.024Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:35:05.990Z"
+    },
+    "albumId": {
+      "$oid": "6a25e409650b02128e55be1a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a25e5e75d2b02164ea10c55"
+    },
+    "title": "Beautiful (feat. Camila Cabello)",
+    "artist": [
+      "Bazzi",
+      "Camila Cabello"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780868585/gqvojwwxlcyggzaphee2.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780868582/ncfxpz6ppppopt46wm5w.mp3",
+    "duration": 180,
+    "albumId": null,
+    "createdAt": {
+      "$date": "2026-06-07T21:43:03.084Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-07T21:43:03.084Z"
+    },
+    "__v": 0,
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775d"
+      },
+      {
+        "$oid": "6a3297477df70788848c7767"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f822"
+    },
+    "title": "Steal My Girl",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780921018/Steal_My_Girl_xuiwvz.mp3",
+    "duration": 228,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.606Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f823"
+    },
+    "title": "Ready to Run",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780921071/Ready_to_Run_vdbwu8.mp3",
+    "duration": 196,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.607Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f824"
+    },
+    "title": "Where Do Broken Hearts Go",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780921131/Where_Do_Broken_Hearts_Go_zayskb.mp3",
+    "duration": 229,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.607Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f825"
+    },
+    "title": "18",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780921121/18_hzvtre.mp3",
+    "duration": 248,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.607Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f826"
+    },
+    "title": "Girl Almighty",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780921240/Girl_Almighty_pipzlz.mp3",
+    "duration": 201,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.607Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f827"
+    },
+    "title": "Fool's Gold",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780921227/Fool_s_Gold_bq35d7.mp3",
+    "duration": 210,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.608Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f828"
+    },
+    "title": "Night Changes",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780921217/Night_Changes_q545je.mp3",
+    "duration": 226,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.608Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f829"
+    },
+    "title": "No Control",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780922127/No_Control_cyzffn.mp3",
+    "duration": 199,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.608Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f82a"
+    },
+    "title": "Fireproof",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780922262/Fireproof_qfpfef.mp3",
+    "duration": 174,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.608Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f82b"
+    },
+    "title": "Spaces",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780922387/Spaces_kckyon.mp3",
+    "duration": 256,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.608Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f82c"
+    },
+    "title": "Stockholm Syndrome",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780923499/Stockholm_Syndrome_egtl8l.mp3",
+    "duration": 214,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.608Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f82d"
+    },
+    "title": "Clouds",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780923502/Clouds_fhmp09.mp3",
+    "duration": 231,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.608Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f82e"
+    },
+    "title": "Change Your Ticket",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924058/Change_Your_Ticket_blatgy.mp3",
+    "duration": 266,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.608Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f82f"
+    },
+    "title": "Illusion",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924009/Illusion_icdq4c.mp3",
+    "duration": 194,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.608Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f830"
+    },
+    "title": "Once in a Lifetime",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780923938/Once_in_a_Lifetime_gxcsem.mp3",
+    "duration": 158,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.608Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26b3cfab7f447cb633f831"
+    },
+    "title": "Act My Age",
+    "artist": [
+      "One Direction"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780920882/ab67616d0000b27334a29f220057810cce98e1b4_oqerbk.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924330/Act_My_Age_dvdh8c.mp3",
+    "duration": 198,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T12:21:35.608Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T12:21:36.831Z"
+    },
+    "albumId": {
+      "$oid": "6a26b3d0ab7f447cb633f832"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7762"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26c246b556c8a7660ddcaa"
+    },
+    "title": "Cave In",
+    "artist": [
+      "Owl City"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924719/01_-_Cave_In_Album_Version_slflqu.mp3",
+    "duration": 242,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T13:23:18.916Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T13:23:19.572Z"
+    },
+    "albumId": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7764"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26c246b556c8a7660ddcab"
+    },
+    "title": "The Bird and the Worm",
+    "artist": [
+      "Owl City"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924760/02_-_The_Bird_And_The_Worm_i2wtlz.mp3",
+    "duration": 207,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T13:23:18.918Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T13:23:19.572Z"
+    },
+    "albumId": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7764"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26c246b556c8a7660ddcac"
+    },
+    "title": "Hello Seattle",
+    "artist": [
+      "Owl City"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924764/03_-_Hello_Seattle_asdmew.mp3",
+    "duration": 167,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T13:23:18.918Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T13:23:19.572Z"
+    },
+    "albumId": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7764"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26c246b556c8a7660ddcad"
+    },
+    "title": "Umbrella Beach",
+    "artist": [
+      "Owl City"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924773/04_-_Umbrella_Beach_Album_Version_ca5plg.mp3",
+    "duration": 230,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T13:23:18.918Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T13:23:19.572Z"
+    },
+    "albumId": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7764"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26c246b556c8a7660ddcae"
+    },
+    "title": "The Saltwater Room",
+    "artist": [
+      "Owl City"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924808/05_-_The_Saltwater_Room_wyzwkd.mp3",
+    "duration": 242,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T13:23:18.918Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T13:23:19.572Z"
+    },
+    "albumId": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7764"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26c246b556c8a7660ddcaf"
+    },
+    "title": "Dental Care",
+    "artist": [
+      "Owl City"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924825/06_-_Dental_Care_Album_Version_yarcx2.mp3",
+    "duration": 191,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T13:23:18.918Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T13:23:19.572Z"
+    },
+    "albumId": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7764"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26c246b556c8a7660ddcb0"
+    },
+    "title": "Meteor Shower",
+    "artist": [
+      "Owl City"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924811/07_-_Meteor_Shower_Album_Version_mblqwu.mp3",
+    "duration": 134,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T13:23:18.918Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T13:23:19.572Z"
+    },
+    "albumId": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7764"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26c246b556c8a7660ddcb1"
+    },
+    "title": "On the Wing",
+    "artist": [
+      "Owl City"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924850/08_-_On_The_Wing_i3pizo.mp3",
+    "duration": 301,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T13:23:18.918Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T13:23:19.572Z"
+    },
+    "albumId": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7764"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26c246b556c8a7660ddcb2"
+    },
+    "title": "Fireflies",
+    "artist": [
+      "Owl City"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924782/09_-_Fireflies_uwkfyv.mp3",
+    "duration": 228,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T13:23:18.918Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T13:23:19.572Z"
+    },
+    "albumId": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7764"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26c246b556c8a7660ddcb3"
+    },
+    "title": "The Tip of the Iceberg",
+    "artist": [
+      "Owl City"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924741/10_-_The_Tip_Of_The_Iceberg_Album_Version_nvinzz.mp3",
+    "duration": 203,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T13:23:18.918Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T13:23:19.572Z"
+    },
+    "albumId": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7764"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26c246b556c8a7660ddcb4"
+    },
+    "title": "Vanilla Twilight",
+    "artist": [
+      "Owl City"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924853/11_-_Vanilla_Twilight_lsw9md.mp3",
+    "duration": 232,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T13:23:18.918Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T13:23:19.572Z"
+    },
+    "albumId": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7764"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a26c246b556c8a7660ddcb5"
+    },
+    "title": "Tidal Wave",
+    "artist": [
+      "Owl City"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780924547/ab67616d0000b273785d4e702802da500fc78b32_q7usx6.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780924851/12_-_Tidal_Wave_Album_Version_esijjf.mp3",
+    "duration": 190,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-08T13:23:18.918Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-08T13:23:19.572Z"
+    },
+    "albumId": {
+      "$oid": "6a26c247b556c8a7660ddcb6"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7764"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b859c3d4d9bda7dc26"
+    },
+    "title": "Wake",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780967040/01_-_Wake_yqkcl9.mp3",
+    "duration": 101,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T01:13:28.716Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T01:13:29.375Z"
+    },
+    "albumId": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b859c3d4d9bda7dc27"
+    },
+    "title": "Given Up",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780967180/02_-_Given_Up_puvjri.mp3",
+    "duration": 189,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T01:13:28.718Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T01:13:29.375Z"
+    },
+    "albumId": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b859c3d4d9bda7dc28"
+    },
+    "title": "Leave Out All the Rest",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780967165/03_-_Leave_Out_All_The_Rest_spr2ca.mp3",
+    "duration": 209,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T01:13:28.718Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T01:13:29.375Z"
+    },
+    "albumId": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b859c3d4d9bda7dc29"
+    },
+    "title": "Bleed It Out",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780967174/04_-_Bleed_It_Out_uclt3l.mp3",
+    "duration": 164,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T01:13:28.718Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T01:13:29.375Z"
+    },
+    "albumId": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b859c3d4d9bda7dc2a"
+    },
+    "title": "Shadow of the Day",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780967212/05_-_Shadow_of_the_Day_p3istt.mp3",
+    "duration": 290,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T01:13:28.718Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T01:13:29.375Z"
+    },
+    "albumId": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b859c3d4d9bda7dc2b"
+    },
+    "title": "What I've Done",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780967205/06_-_What_I_ve_Done_tojrzo.mp3",
+    "duration": 205,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T01:13:28.718Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T01:13:29.375Z"
+    },
+    "albumId": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b859c3d4d9bda7dc2c"
+    },
+    "title": "Hands Held High",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780967158/07_-_Hands_Held_High_cdnclc.mp3",
+    "duration": 233,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T01:13:28.718Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T01:13:29.375Z"
+    },
+    "albumId": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b859c3d4d9bda7dc2d"
+    },
+    "title": "No More Sorrow",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780967276/08_-_No_More_Sorrow_dqhe20.mp3",
+    "duration": 222,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T01:13:28.718Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T01:13:29.375Z"
+    },
+    "albumId": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b859c3d4d9bda7dc2e"
+    },
+    "title": "Valentine's Day",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780967248/09_-_Valentine_s_Day_bzqkqj.mp3",
+    "duration": 197,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T01:13:28.718Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T01:13:29.375Z"
+    },
+    "albumId": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b859c3d4d9bda7dc2f"
+    },
+    "title": "In Between",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780967253/10_-_In_Between_nkl3m9.mp3",
+    "duration": 197,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T01:13:28.718Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T01:13:29.375Z"
+    },
+    "albumId": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b859c3d4d9bda7dc30"
+    },
+    "title": "In Pieces",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780967281/11_-_In_Pieces_ook6ct.mp3",
+    "duration": 218,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T01:13:28.718Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T01:13:29.375Z"
+    },
+    "albumId": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2768b859c3d4d9bda7dc31"
+    },
+    "title": "The Little Things Give You Away",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1780967004/ab67616d0000b2736e996745f2c7b8036abef213_qcocdi.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1780967300/12_-_The_Little_Things_Give_You_Away_l7y5av.mp3",
+    "duration": 383,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T01:13:28.718Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T01:13:29.375Z"
+    },
+    "albumId": {
+      "$oid": "6a2768b959c3d4d9bda7dc32"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2861c8c1ca1084896aa12f"
+    },
+    "title": "Thick and Thin",
+    "artist": [
+      "LANY"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781030215/ab67616d0000b273c4dae9528b2a8408f463eb17_o6jkd5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781030033/1_-_Thick_And_Thin_oeqhtv.mp3",
+    "duration": 212,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T18:56:08.440Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T18:56:08.953Z"
+    },
+    "albumId": {
+      "$oid": "6a2861c8c1ca1084896aa138"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2861c8c1ca1084896aa130"
+    },
+    "title": "Taking Me Back",
+    "artist": [
+      "LANY"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781030215/ab67616d0000b273c4dae9528b2a8408f463eb17_o6jkd5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781030039/2_-_Taking_Me_Back_w9eu4x.mp3",
+    "duration": 195,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T18:56:08.441Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T18:56:08.953Z"
+    },
+    "albumId": {
+      "$oid": "6a2861c8c1ca1084896aa138"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2861c8c1ca1084896aa131"
+    },
+    "title": "If You See Her",
+    "artist": [
+      "LANY"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781030215/ab67616d0000b273c4dae9528b2a8408f463eb17_o6jkd5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781030063/3_-_If_You_See_Her_lpdznc.mp3",
+    "duration": 183,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T18:56:08.441Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T18:56:08.953Z"
+    },
+    "albumId": {
+      "$oid": "6a2861c8c1ca1084896aa138"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2861c8c1ca1084896aa132"
+    },
+    "title": "I Don't Wanna Love You Anymore",
+    "artist": [
+      "LANY"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781030215/ab67616d0000b273c4dae9528b2a8408f463eb17_o6jkd5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781030062/4_-_I_Don_t_Wanna_Love_You_Anymore_geeuct.mp3",
+    "duration": 201,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T18:56:08.441Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T18:56:08.953Z"
+    },
+    "albumId": {
+      "$oid": "6a2861c8c1ca1084896aa138"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2861c8c1ca1084896aa133"
+    },
+    "title": "Let Me Know",
+    "artist": [
+      "LANY"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781030215/ab67616d0000b273c4dae9528b2a8408f463eb17_o6jkd5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781030078/5_-_Let_Me_Know_c0dq7u.mp3",
+    "duration": 276,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T18:56:08.441Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T18:56:08.953Z"
+    },
+    "albumId": {
+      "$oid": "6a2861c8c1ca1084896aa138"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2861c8c1ca1084896aa134"
+    },
+    "title": "Run",
+    "artist": [
+      "LANY"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781030215/ab67616d0000b273c4dae9528b2a8408f463eb17_o6jkd5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781030063/3_-_If_You_See_Her_lpdznc.mp3",
+    "duration": 228,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T18:56:08.441Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T18:56:08.953Z"
+    },
+    "albumId": {
+      "$oid": "6a2861c8c1ca1084896aa138"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2861c8c1ca1084896aa135"
+    },
+    "title": "Valentine's Day",
+    "artist": [
+      "LANY"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781030215/ab67616d0000b273c4dae9528b2a8408f463eb17_o6jkd5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781030071/7_-_Valentine_s_Day_sqc95s.mp3",
+    "duration": 218,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T18:56:08.441Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T18:56:08.953Z"
+    },
+    "albumId": {
+      "$oid": "6a2861c8c1ca1084896aa138"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2861c8c1ca1084896aa136"
+    },
+    "title": "Thru These Tears",
+    "artist": [
+      "LANY"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781030215/ab67616d0000b273c4dae9528b2a8408f463eb17_o6jkd5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781030060/8_-_Thru_These_Tears_xyixie.mp3",
+    "duration": 204,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T18:56:08.441Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T18:56:08.953Z"
+    },
+    "albumId": {
+      "$oid": "6a2861c8c1ca1084896aa138"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2861c8c1ca1084896aa137"
+    },
+    "title": "Malibu Nights",
+    "artist": [
+      "LANY"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781030215/ab67616d0000b273c4dae9528b2a8408f463eb17_o6jkd5.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781030048/9_-_Malibu_Nights_xc0vfk.mp3",
+    "duration": 286,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-09T18:56:08.442Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-09T18:56:08.953Z"
+    },
+    "albumId": {
+      "$oid": "6a2861c8c1ca1084896aa138"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c775f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadb5"
+    },
+    "title": "Say (All I Need)",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057450/01_-_ONEREPUBLIC_-_SAY_ALL_I_NEED_LYRICS_zx9dmw.mp3",
+    "duration": 231,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.517Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadb6"
+    },
+    "title": "Mercy",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057476/02_-_ONEREPUBLIC_-_MERCY_LYRICS_i1orvp.mp3",
+    "duration": 241,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadb7"
+    },
+    "title": "Stop and Stare",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057460/03_-_ONEREPUBLIC_-_STOP_AND_STARE_LYRICS_y9s8fh.mp3",
+    "duration": 224,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadb8"
+    },
+    "title": "Apologize",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057450/04_-_ONEREPUBLIC_-_APOLOGIZE_LYRICS_grxjic.mp3",
+    "duration": 208,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadb9"
+    },
+    "title": "Goodbye, Apathy",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057452/05_-_ONEREPUBLIC_-_GOODBYE_APATHY_LYRICS_viaudn.mp3",
+    "duration": 213,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadba"
+    },
+    "title": "All Fall Down",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057553/06_-_ONEREPUBLIC_-_ALL_FALL_DOWN_LYRICS_t59yi5.mp3",
+    "duration": 245,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadbb"
+    },
+    "title": "Tyrant",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057595/07_-_ONEREPUBLIC_-_TYRANT_LYRICS_penowo.mp3",
+    "duration": 303,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadbc"
+    },
+    "title": "Prodigal",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057583/08_-_ONEREPUBLIC_-_PRODIGAL_LYRICS_pez9ln.mp3",
+    "duration": 236,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadbd"
+    },
+    "title": "Won't Stop",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057585/09_-_ONEREPUBLIC_-_WON_T_STOP_LYRICS_kyebyg.mp3",
+    "duration": 303,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadbe"
+    },
+    "title": "All We Are",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057567/10_-_ONEREPUBLIC_-_ALL_WE_ARE_LYRICS_vg5qr7.mp3",
+    "duration": 267,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadbf"
+    },
+    "title": "Someone to Save You",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057578/11_-_ONEREPUBLIC_-_SOMEONE_TO_SAVE_YOU_LYRICS_jtksna.mp3",
+    "duration": 253,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadc0"
+    },
+    "title": "Come Home",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057589/12_-_ONEREPUBLIC_-_COME_HOME_LYRICS_rfhoyf.mp3",
+    "duration": 269,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadc1"
+    },
+    "title": "Dreaming Out Loud",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057602/13_-_ONEREPUBLIC_-_DREAMING_OUT_LOUD_LYRICS_ex3gtq.mp3",
+    "duration": 280,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a28cb894a539a50f45aadc2"
+    },
+    "title": "Apologize (Timbaland Remix)",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781057357/ab67616d0000b2738d2a873567851166946387a0_pukola.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781057482/15_-_ONEREPUBLIC_-_APOLOGIZE_TIMBERLAND_REMIX_LYRICS_gcx5up.mp3",
+    "duration": 186,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T02:27:21.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T02:27:22.168Z"
+    },
+    "albumId": {
+      "$oid": "6a28cb8a4a539a50f45aadc3"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a29715a4879e69bd3cbade6"
+    },
+    "title": "Lost in the Echo",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781100685/01_-_LOST_IN_THE_ECHO_sf6wcy.mp3",
+    "duration": 205,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T14:14:50.649Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T14:14:51.187Z"
+    },
+    "albumId": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a29715a4879e69bd3cbade7"
+    },
+    "title": "In My Remains",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781100682/02_-_IN_MY_REMAINS_avjbd4.mp3",
+    "duration": 200,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T14:14:50.650Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T14:14:51.187Z"
+    },
+    "albumId": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a29715a4879e69bd3cbade8"
+    },
+    "title": "Burn It Down",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781100663/03_-_BURN_IT_DOWN_otcnad.mp3",
+    "duration": 231,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T14:14:50.650Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T14:14:51.187Z"
+    },
+    "albumId": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a29715a4879e69bd3cbade9"
+    },
+    "title": "Lies Greed Misery",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781100669/04_-_LIES_GREED_MISERY_seuqdf.mp3",
+    "duration": 147,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T14:14:50.650Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T14:14:51.187Z"
+    },
+    "albumId": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a29715a4879e69bd3cbadea"
+    },
+    "title": "I'll Be Gone",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781100713/05_-_I_LL_BE_GONE_gmig4f.mp3",
+    "duration": 211,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T14:14:50.650Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T14:14:51.187Z"
+    },
+    "albumId": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a29715a4879e69bd3cbadeb"
+    },
+    "title": "Castle of Glass",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781100720/06_-_CASTLE_OF_GLASS_ejdtzl.mp3",
+    "duration": 205,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T14:14:50.650Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T14:14:51.187Z"
+    },
+    "albumId": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a29715a4879e69bd3cbadec"
+    },
+    "title": "Victimized",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781100698/07_-_VICTIMIZED_x3zsdl.mp3",
+    "duration": 106,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T14:14:50.650Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T14:14:51.187Z"
+    },
+    "albumId": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a29715a4879e69bd3cbaded"
+    },
+    "title": "Roads Untraveled",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781100733/08_-_ROADS_UNTRAVELED_lzjfsn.mp3",
+    "duration": 229,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T14:14:50.650Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T14:14:51.187Z"
+    },
+    "albumId": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a29715a4879e69bd3cbadee"
+    },
+    "title": "Skin to Bone",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781100729/09_-_SKIN_TO_BONE_i6ws9d.mp3",
+    "duration": 168,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T14:14:50.650Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T14:14:51.187Z"
+    },
+    "albumId": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a29715a4879e69bd3cbadef"
+    },
+    "title": "Until It Breaks",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781100684/10_-_UNTIL_IT_BREAKS_t6b8v4.mp3",
+    "duration": 223,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T14:14:50.650Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T14:14:51.187Z"
+    },
+    "albumId": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a29715a4879e69bd3cbadf0"
+    },
+    "title": "Tinfoil",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781100630/11_-_TINFOIL_lat3qi.mp3",
+    "duration": 71,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T14:14:50.650Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T14:14:51.187Z"
+    },
+    "albumId": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a29715a4879e69bd3cbadf1"
+    },
+    "title": "Powerless",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100426/ab67616d0000b273987fb4c5ec8790e9f637a4a4_rlin2u.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781100672/12_-_POWERLESS_byv96i.mp3",
+    "duration": 223,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T14:14:50.650Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T14:14:51.187Z"
+    },
+    "albumId": {
+      "$oid": "6a29715b4879e69bd3cbadf2"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d2735b"
+    },
+    "title": "The Requiem",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103303/01_-_The_Requiem_wdetrh.mp3",
+    "duration": 121,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.170Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d2735c"
+    },
+    "title": "The Radiance",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103279/02_-_The_Radiance_kmsd0u.mp3",
+    "duration": 57,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.171Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d2735d"
+    },
+    "title": "Burning in the Skies",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103311/03_-_Burning_in_the_Skies_tr8mhd.mp3",
+    "duration": 253,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.171Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d2735e"
+    },
+    "title": "Empty Spaces",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103256/04_-_Empty_Spaces_jrvubp.mp3",
+    "duration": 18,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.171Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d2735f"
+    },
+    "title": "When They Come for Me",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103457/05_-_When_They_Come_for_Me_wudpdb.mp3",
+    "duration": 293,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.171Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d27360"
+    },
+    "title": "Robot Boy",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103357/06_-_Robot_Boy_qfxry8.mp3",
+    "duration": 268,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.171Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d27361"
+    },
+    "title": "Jornada del Muerto",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103303/07_-_Jornada_Del_Muerto_pt7jv3.mp3",
+    "duration": 94,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.171Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d27362"
+    },
+    "title": "Waiting for the End",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103416/08_-_Waiting_for_the_End_h0u1t0.mp3",
+    "duration": 231,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.171Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d27363"
+    },
+    "title": "Blackout",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103518/09_-_Blackout_fmmaha.mp3",
+    "duration": 279,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.172Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d27364"
+    },
+    "title": "Wretches and Kings",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103458/10_-_Wretches_and_Kings_h56fkv.mp3",
+    "duration": 250,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.172Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d27365"
+    },
+    "title": "Wisdom, Justice, and Love",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103362/11_-_Wisdom_Justice_and_Love_tlpjcr.mp3",
+    "duration": 98,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.172Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d27366"
+    },
+    "title": "Iridescent",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103598/12_-_Iridescent_cniug4.mp3",
+    "duration": 296,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.172Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d27367"
+    },
+    "title": "Fallout",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103476/13_-_Fallout_sicje4.mp3",
+    "duration": 83,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.172Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d27368"
+    },
+    "title": "The Catalyst",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103609/14_-_The_Catalyst_sxe3kk.mp3",
+    "duration": 339,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.172Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a297e717eaee9c313d27369"
+    },
+    "title": "The Messenger",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781100957/ab67616d0000b273ce43845fc9e7c58cfa5fff55_r2hdch.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781103594/15_-_The_Messenger_bzovyf.mp3",
+    "duration": 181,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:10:41.172Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:10:41.778Z"
+    },
+    "albumId": {
+      "$oid": "6a297e717eaee9c313d2736a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2984657e52539e294e6b60"
+    },
+    "title": "Nobody Can Save Me",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105364/ab67616d0000b273145e1cf12538f5666511237d_qbl3zp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781105470/01_-_Nobody_Can_Save_Me_qwzjzt.mp3",
+    "duration": 223,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:36:05.556Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:36:06.092Z"
+    },
+    "albumId": {
+      "$oid": "6a2984667e52539e294e6b6a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2984657e52539e294e6b61"
+    },
+    "title": "Good Goodbye (feat. Pusha T & Stormzy)",
+    "artist": [
+      "Linkin Park",
+      "Pusha T",
+      "Stormzy"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105364/ab67616d0000b273145e1cf12538f5666511237d_qbl3zp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781105489/02_-_Good_Goodbye_feat._Pusha_T_and_Stormzy_axodxt.mp3",
+    "duration": 211,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:36:05.557Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:36:06.092Z"
+    },
+    "albumId": {
+      "$oid": "6a2984667e52539e294e6b6a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      },
+      {
+        "$oid": "6a3297487df70788848c7768"
+      },
+      {
+        "$oid": "6a3297487df70788848c7769"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2984657e52539e294e6b62"
+    },
+    "title": "Talking to Myself",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105364/ab67616d0000b273145e1cf12538f5666511237d_qbl3zp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781105491/03_-_Talking_to_Myself_n6held.mp3",
+    "duration": 231,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:36:05.557Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:36:06.092Z"
+    },
+    "albumId": {
+      "$oid": "6a2984667e52539e294e6b6a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2984657e52539e294e6b63"
+    },
+    "title": "Battle Symphony",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105364/ab67616d0000b273145e1cf12538f5666511237d_qbl3zp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781105502/04_-_Battle_Symphony_tixiep.mp3",
+    "duration": 216,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:36:05.558Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:36:06.092Z"
+    },
+    "albumId": {
+      "$oid": "6a2984667e52539e294e6b6a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2984657e52539e294e6b64"
+    },
+    "title": "Invisible",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105364/ab67616d0000b273145e1cf12538f5666511237d_qbl3zp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781105463/05_-_Invisible_qbelvl.mp3",
+    "duration": 214,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:36:05.558Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:36:06.092Z"
+    },
+    "albumId": {
+      "$oid": "6a2984667e52539e294e6b6a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2984657e52539e294e6b65"
+    },
+    "title": "Heavy (feat. Kiiara)",
+    "artist": [
+      "Linkin Park",
+      "Kiiara"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105364/ab67616d0000b273145e1cf12538f5666511237d_qbl3zp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781105459/06_-_Heavy_feat._Kiiara_eokhr3.mp3",
+    "duration": 169,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:36:05.558Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:36:06.092Z"
+    },
+    "albumId": {
+      "$oid": "6a2984667e52539e294e6b6a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      },
+      {
+        "$oid": "6a3297487df70788848c776a"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2984657e52539e294e6b66"
+    },
+    "title": "Sorry for Now",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105364/ab67616d0000b273145e1cf12538f5666511237d_qbl3zp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781105509/07_-_Sorry_for_Now_knmsa4.mp3",
+    "duration": 203,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:36:05.558Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:36:06.092Z"
+    },
+    "albumId": {
+      "$oid": "6a2984667e52539e294e6b6a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2984657e52539e294e6b67"
+    },
+    "title": "Halfway Right",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105364/ab67616d0000b273145e1cf12538f5666511237d_qbl3zp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781105533/08_-_Halfway_Right_hdjyw3.mp3",
+    "duration": 216,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:36:05.558Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:36:06.092Z"
+    },
+    "albumId": {
+      "$oid": "6a2984667e52539e294e6b6a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2984657e52539e294e6b68"
+    },
+    "title": "One More Light",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105364/ab67616d0000b273145e1cf12538f5666511237d_qbl3zp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781105538/09_-_One_More_Light_xadcxx.mp3",
+    "duration": 255,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:36:05.558Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:36:06.092Z"
+    },
+    "albumId": {
+      "$oid": "6a2984667e52539e294e6b6a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2984657e52539e294e6b69"
+    },
+    "title": "Sharp Edges",
+    "artist": [
+      "Linkin Park"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105364/ab67616d0000b273145e1cf12538f5666511237d_qbl3zp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781105538/10_-_Sharp_Edges_bpc3ce.mp3",
+    "duration": 170,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:36:05.558Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:36:06.092Z"
+    },
+    "albumId": {
+      "$oid": "6a2984667e52539e294e6b6a"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297437df70788848c7760"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2989d7c477a5a4e207fa2b"
+    },
+    "title": "Made for You",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105900/wakingup_sbuplp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781106928/01_-_Made_For_You_jlooz1.mp3",
+    "duration": 257,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:59:19.321Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:59:19.907Z"
+    },
+    "albumId": {
+      "$oid": "6a2989d7c477a5a4e207fa36"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2989d7c477a5a4e207fa2d"
+    },
+    "title": "Secrets",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105900/wakingup_sbuplp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781106981/03_-_Secrets_thcbce.mp3",
+    "duration": 224,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:59:19.323Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:59:19.907Z"
+    },
+    "albumId": {
+      "$oid": "6a2989d7c477a5a4e207fa36"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2989d7c477a5a4e207fa31"
+    },
+    "title": "All This Time",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105900/wakingup_sbuplp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781107002/07_-_All_This_Time_f7ysun.mp3",
+    "duration": 242,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:59:19.323Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:59:19.907Z"
+    },
+    "albumId": {
+      "$oid": "6a2989d7c477a5a4e207fa36"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2989d7c477a5a4e207fa35"
+    },
+    "title": "Lullaby",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105900/wakingup_sbuplp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781107017/11_-_Lullaby_c08b3h.mp3",
+    "duration": 277,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:59:19.323Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:59:19.907Z"
+    },
+    "albumId": {
+      "$oid": "6a2989d7c477a5a4e207fa36"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2989d7c477a5a4e207fa33"
+    },
+    "title": "Waking Up",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105900/wakingup_sbuplp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781107032/09_-_Waking_Up_xxffw4.mp3",
+    "duration": 367,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:59:19.323Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:59:19.907Z"
+    },
+    "albumId": {
+      "$oid": "6a2989d7c477a5a4e207fa36"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2989d7c477a5a4e207fa34"
+    },
+    "title": "Marchin On",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105900/wakingup_sbuplp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781107026/10_-_Marchin_On_sjvrg7.mp3",
+    "duration": 251,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:59:19.323Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:59:19.907Z"
+    },
+    "albumId": {
+      "$oid": "6a2989d7c477a5a4e207fa36"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2989d7c477a5a4e207fa2c"
+    },
+    "title": "All the Right Moves",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105900/wakingup_sbuplp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781106970/02_-_All_The_Right_Moves_rajkyh.mp3",
+    "duration": 238,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:59:19.322Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:59:19.907Z"
+    },
+    "albumId": {
+      "$oid": "6a2989d7c477a5a4e207fa36"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2989d7c477a5a4e207fa2e"
+    },
+    "title": "Everybody Loves Me",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105900/wakingup_sbuplp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781106967/04_-_Everybody_Loves_Me_gavlvg.mp3",
+    "duration": 214,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:59:19.323Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:59:19.907Z"
+    },
+    "albumId": {
+      "$oid": "6a2989d7c477a5a4e207fa36"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2989d7c477a5a4e207fa2f"
+    },
+    "title": "Missing Persons 1 & 2",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105900/wakingup_sbuplp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781106981/05_-_Missing_Persons_1_2_eadolh.mp3",
+    "duration": 299,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:59:19.323Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:59:19.907Z"
+    },
+    "albumId": {
+      "$oid": "6a2989d7c477a5a4e207fa36"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2989d7c477a5a4e207fa30"
+    },
+    "title": "Good Life",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105900/wakingup_sbuplp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781106997/06_-_Good_Life_kzddqt.mp3",
+    "duration": 253,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:59:19.323Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:59:19.907Z"
+    },
+    "albumId": {
+      "$oid": "6a2989d7c477a5a4e207fa36"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2989d7c477a5a4e207fa32"
+    },
+    "title": "Fear",
+    "artist": [
+      "OneRepublic"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781105900/wakingup_sbuplp.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781107016/08_-_Fear_qmqxzn.mp3",
+    "duration": 226,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-10T15:59:19.323Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-10T15:59:19.907Z"
+    },
+    "albumId": {
+      "$oid": "6a2989d7c477a5a4e207fa36"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7763"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5b1"
+    },
+    "title": "I'd Do Anything (feat. Mark Hoppus)",
+    "artist": [
+      "Simple Plan",
+      "Mark Hoppus"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781449689/01_-_I_d_Do_Anything_pv21no.mp3",
+    "duration": 197,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.928Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      },
+      {
+        "$oid": "6a3297487df70788848c776b"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5b2"
+    },
+    "title": "The Worst Day Ever",
+    "artist": [
+      "Simple Plan"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781449970/02_-_The_Worst_Day_Ever_ilmob7.mp3",
+    "duration": 207,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5b3"
+    },
+    "title": "You Don't Mean Anything (feat. Joel Madden)",
+    "artist": [
+      "Simple Plan",
+      "Joel Madden"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781449730/03_-_You_Don_t_Mean_Anything_hpuuqm.mp3",
+    "duration": 148,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      },
+      {
+        "$oid": "6a3297487df70788848c776c"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5b4"
+    },
+    "title": "I'm Just a Kid",
+    "artist": [
+      "Simple Plan"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781449846/04_-_I_m_Just_a_Kid_e9llr7.mp3",
+    "duration": 198,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5b5"
+    },
+    "title": "When I'm With You",
+    "artist": [
+      "Simple Plan"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781449802/05_-_When_I_m_with_You_jjrqqy.mp3",
+    "duration": 157,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5b6"
+    },
+    "title": "Meet You There",
+    "artist": [
+      "Simple Plan"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781450016/06_-_Meet_You_There_qzf7a1.mp3",
+    "duration": 253,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5b7"
+    },
+    "title": "Addicted",
+    "artist": [
+      "Simple Plan"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781450021/07_-_Addicted_ne3o1q.mp3",
+    "duration": 232,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5b8"
+    },
+    "title": "My Alien",
+    "artist": [
+      "Simple Plan"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781450263/08_-_My_Alien_p3g2rq.mp3",
+    "duration": 188,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5b9"
+    },
+    "title": "God Must Hate Me",
+    "artist": [
+      "Simple Plan"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781450051/09_-_God_Must_Hate_Me_wibkjj.mp3",
+    "duration": 164,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5ba"
+    },
+    "title": "I Won't Be There",
+    "artist": [
+      "Simple Plan"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781450081/10_-_I_Won_t_Be_There_r6uwjm.mp3",
+    "duration": 189,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5bb"
+    },
+    "title": "One Day",
+    "artist": [
+      "Simple Plan"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781450235/11_-_One_Day_dbpy4n.mp3",
+    "duration": 194,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5bc"
+    },
+    "title": "Perfect",
+    "artist": [
+      "Simple Plan"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781450272/12_-_Perfect_gkh6as.mp3",
+    "duration": 277,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6a2ec7f55730bb880714c5bd"
+    },
+    "title": "Grow Up",
+    "artist": [
+      "Simple Plan"
+    ],
+    "imageUrl": "https://res.cloudinary.com/dzaxbhml4/image/upload/v1781449506/ab67616d0000b273b7531c90a44e901a41242b69_so3yvy.jpg",
+    "audioUrl": "https://res.cloudinary.com/dzaxbhml4/video/upload/v1781450235/13_-_Grow_Up_lkopd5.mp3",
+    "duration": 152,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2026-06-14T15:25:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-14T15:25:42.708Z"
+    },
+    "albumId": {
+      "$oid": "6a2ec7f65730bb880714c5be"
+    },
+    "artistId": [
+      {
+        "$oid": "6a3297447df70788848c7765"
+      }
+    ]
+  }
+]

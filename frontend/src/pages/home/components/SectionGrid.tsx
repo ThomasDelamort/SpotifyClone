@@ -1,3 +1,4 @@
+import { formatArtists } from "@/lib/utils";
 import type { Song } from "@/types";
 import SectionGridSkeleton from "@/pages/home/components/SectionGridSkeleton";
 import { Button } from "@/components/ui/button";
@@ -31,14 +32,14 @@ const SectionGrid = ({ title, songs, isLoading }:SectionGridProps) => {
                         <div className="relative mb-4">
                             <div className="aspect-square rounded-md shadow-lg overflow-hidden">
                                 <img src={song.imageUrl} alt={song.title}
-                                className="w-full h-full object-cover transition-transform duration-300
+                                     className="w-full h-full object-cover transition-transform duration-300
                                 group-hover:scale-105"
                                 />
                             </div>
                             <PlayButton song={song} />
                         </div>
                         <h3 className="font-medium mb-2 truncate">{song.title}</h3>
-                        <p className="text-sm text-zinc-400">{song.artist}</p>
+                        <p className="text-sm text-zinc-400">{formatArtists(song.artist)}</p>
 
                     </div>
                 ))}
