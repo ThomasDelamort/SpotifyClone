@@ -1,4 +1,9 @@
-# Spotify Clone — Full-Stack Music Streaming App
+<p align="center">
+  <img src="./spotify.png" alt="App logo" width="120" height="120" />
+</p>
+
+<h1 align="center">Spotify Clone</h1>
+<p align="center"><em>Full-Stack Music Streaming App</em></p>
 
 A full-stack music streaming application: browse albums, stream songs through a persistent
 player with a queue, see what other listeners are playing in real time, and manage the
