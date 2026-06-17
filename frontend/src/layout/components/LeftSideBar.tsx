@@ -1,7 +1,7 @@
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { cn } from "@/lib/utils.ts";
 import { useMusicStore } from "@/stores/useMusicStore.ts";
-import { HomeIcon, Library } from "lucide-react";
+import { HomeIcon, Library, Search } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button.tsx";
 import { useEffect } from "react";
 import PlaylistSkeleton from "@/components/skeleton/PlaylistSkeleton.tsx";
@@ -32,6 +32,18 @@ export const LeftSideBar = () => {
                 >
                     <HomeIcon className="mr-2 size-5" />
                     <span className="hidden md:inline">Home</span>
+                </Link>
+
+                <Link to={"/search"}
+                      className={cn(buttonVariants(
+                          {
+                              variant: "ghost",
+                              className:"w-full justify-start text-white hover:bg-zinc-800 rounded-sm",
+                          }
+                      ))}
+                >
+                    <Search className="mr-2 size-5" />
+                    <span className="hidden md:inline">Search</span>
                 </Link>
             </div>
         </div>

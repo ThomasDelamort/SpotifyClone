@@ -14,6 +14,7 @@ import authRoutes from "./routes/auth.route.js";
 import songRoutes from "./routes/song.route.js";
 import albumRoutes from "./routes/album.route.js";
 import artistRoutes from "./routes/artist.route.js";
+import searchRoutes from "./routes/search.route.js";
 import statsRoutes from "./routes/stat.route.js";
 import { createServer } from "http";
 
@@ -52,6 +53,7 @@ app.use("/api/admin", adminRoutes);
 app.use("/api/songs", songRoutes);
 app.use("/api/albums", albumRoutes);
 app.use("/api/artists", artistRoutes);
+app.use("/api/search", searchRoutes);
 app.use("/api/stats", statsRoutes)
 
 app.use((err, req, res, next) => {
