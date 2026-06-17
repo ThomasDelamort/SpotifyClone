@@ -205,6 +205,22 @@ Planned work, in suggested build order:
 
 ---
 
+## Credits
+
+This project was built by following **Codesistency**'s (Burak Orkmez) full tutorial,
+**"Advanced Spotify Clone: Build & Deploy a MERN Stack Spotify Application with React.js"** —
+the code here closely follows the video step by step. Full credit for the original design and
+implementation goes to the author.
+
+- Tutorial video: https://youtu.be/4sbklcQ0EXc
+- Channel: [Codesistency](https://www.youtube.com/@codesistency)
+- Original source code: [github.com/burakorkmez/realtime-spotify-clone](https://github.com/burakorkmez/realtime-spotify-clone)
+
+Changes made on top of the original (e.g. removing the real-time chat feature, and the roadmap
+items above) are my own.
+
+---
+
 ## License
 
 ISC (see `backend/package.json`).
