@@ -18,9 +18,6 @@
   <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white" alt=""/>
 </p>
 
-A full-stack music streaming application: browse albums, stream songs through a persistent
-player with a queue, see what other listeners are playing in real time, and manage the
-catalog from an admin dashboard.
 
 The project is split into two packages:
 
