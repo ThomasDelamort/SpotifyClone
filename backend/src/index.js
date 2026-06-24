@@ -21,6 +21,9 @@ import { createServer } from "http";
 
 dotenv.config();
 
+console.log("CLERK_SECRET_KEY:", process.env.CLERK_SECRET_KEY);
+console.log("PORT:", process.env.PORT);
+
 const __dirname = path.resolve();
 const app = express();
 const PORT = process.env.PORT;
