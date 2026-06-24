@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Spotify Clone</h1>
-<p align="center"><em>A Full-Stack Music Streaming App</em></p>
+<p align="center"><em>The Full-Stack Music Streaming App</em></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"  alt=""/>
