@@ -5,11 +5,11 @@ import { Disc3, Music2 } from "lucide-react";
 
 // Animated equalizer bars shown while a song is playing.
 const Equalizer = () => (
-  <div className="flex items-end gap-[3px] h-4" aria-hidden="true">
+  <div className="flex items-end gap-0.75 h-4" aria-hidden="true">
     {[0, 1, 2, 3].map((i) => (
       <span
         key={i}
-        className="np-bar w-[3px] rounded-full bg-emerald-400"
+        className="np-bar gap-0.75 rounded-full bg-emerald-400"
         style={{ animationDelay: `${i * 0.15}s` }}
       />
     ))}
@@ -44,7 +44,7 @@ const NowPlaying = () => {
             {/* Album art with an ambient glow — the panel's signature element */}
             <div className="relative">
               <div
-                className="absolute -inset-2 rounded-2xl bg-gradient-to-br from-emerald-500/40 to-sky-500/30 blur-2xl opacity-70"
+                className="absolute -inset-2 rounded-2xl bg-linear-to-r from-emerald-500/40 to-sky-500/30 blur-2xl opacity-70"
                 aria-hidden="true"
               />
               <img
@@ -117,14 +117,14 @@ const EmptyState = () => (
   <div className="flex-1 flex flex-col items-center justify-center p-6 text-center space-y-4">
     <div className="relative">
       <div
-        className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-sky-500 rounded-full blur-lg opacity-60"
+        className="absolute -inset-1 bg-linear-to-r from-emerald-500 to-sky-500 rounded-full blur-lg opacity-60"
         aria-hidden="true"
       />
       <div className="relative bg-zinc-900 rounded-full p-4">
         <Music2 className="size-8 text-emerald-400" />
       </div>
     </div>
-    <div className="space-y-2 max-w-[220px]">
+    <div className="space-y-2 max-w-55">
       <h3 className="text-lg font-semibold text-white">Nothing playing</h3>
       <p className="text-sm text-zinc-400">
         Pick a song and it'll show up here.

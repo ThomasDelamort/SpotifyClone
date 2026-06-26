@@ -5,7 +5,7 @@ import {
 } from "@/components/ui/resizable";
 import { Outlet } from "react-router-dom";
 import LeftSideBar from "@/layout/components/LeftSideBar.tsx";
-import RightSidebar from "@/layout/components/RightSidebar.tsx";
+import RightSidebar from "./components/RightSidebar";
 import AudioPlayer from "@/layout/components/AudioPlayer";
 import { PlaybackControls } from "@/layout/components/PlaybackControls.tsx";
 import { useEffect, useState } from "react";
