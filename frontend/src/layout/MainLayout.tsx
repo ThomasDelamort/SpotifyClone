@@ -5,7 +5,7 @@ import {
 } from "@/components/ui/resizable";
 import { Outlet } from "react-router-dom";
 import LeftSideBar from "@/layout/components/LeftSideBar.tsx";
-import RightSidebar from "./components/RightSidebar";
+import RightSidebar from "@/layout/components/RightSidebar.tsx";
 import AudioPlayer from "@/layout/components/AudioPlayer";
 import { PlaybackControls } from "@/layout/components/PlaybackControls.tsx";
 import { useEffect, useState } from "react";
@@ -34,6 +34,8 @@ export const MainLayout = () => {
           defaultSize={20}
           minSize={isMobile ? 0 : 10}
           maxSize={30}
+          collapsible
+          collapsedSize={0}
         >
           <LeftSideBar />
         </ResizablePanel>
