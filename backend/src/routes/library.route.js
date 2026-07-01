@@ -1,0 +1,13 @@
+import { Router } from "express";
+import { protectRoute } from "../middleware/auth.middleware.js";
+import {
+  getMyLibrary,
+  toggleSavedAlbum,
+} from "../controller/library.controller.js";
+
+const router = Router();
+
+router.get("/", protectRoute, getMyLibrary);
+router.post("/albums/:albumId", protectRoute, toggleSavedAlbum);
+
+export default router;
