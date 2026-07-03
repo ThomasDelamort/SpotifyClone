@@ -3,11 +3,13 @@ import { protectRoute } from "../middleware/auth.middleware.js";
 import {
   getMyLibrary,
   toggleSavedAlbum,
+  toggleSavedArtist,
 } from "../controller/library.controller.js";
 
 const router = Router();
 
 router.get("/", protectRoute, getMyLibrary);
 router.post("/albums/:albumId", protectRoute, toggleSavedAlbum);
+router.post("/artists/:artistId", protectRoute, toggleSavedAlbum);
 
 export default router;
