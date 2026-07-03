@@ -12,6 +12,8 @@ interface LibraryStore {
   fetchLibrary: () => Promise<void>;
   toggleAlbum: (albumId: string) => Promise<void>;
   isAlbumSaved: (albumId: string) => boolean;
+  toggleArtist: (artistId: string) => Promise<void>;
+  isArtistFollowed: (artistId: string) => boolean;
 }
 
 export const useLibraryStore = create<LibraryStore>((set, get) => ({
@@ -57,4 +59,21 @@ export const useLibraryStore = create<LibraryStore>((set, get) => ({
 
   isAlbumSaved: (albumId: string) =>
     get().albums.some((a) => a._id === albumId),
+
+  toggleArtist: async (artistId: string) => {
+    const wasFollowed = get().isArtistFollowed(artistId);
+    if (wasFollowed) {
+      set({ artists: get().artists.filter((a) => a._id !== artistId) });
+    }
+    try {
+      const res = await axiosInstance.post(`/library/artists/${artistId}`);
+      if (res.data.saved !== wasFollowed) await get().fetchLibrary();
+    } catch (err) {
+      console.error("Failed to update followed artists", err);
+      await get().fetchLibrary();
+    }
+  },
+
+  isArtistFollowed: (artistId: string) =>
+    get().artists.some((a) => a._id === artistId),
 }));

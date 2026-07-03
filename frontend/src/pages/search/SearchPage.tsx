@@ -124,7 +124,8 @@ const SearchPage = () => {
               <h2 className="text-xl sm:text-2xl font-bold mb-4">Artists</h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
                 {artists.map((artist) => (
-                  <div
+                  <Link
+                    to={`/artists/${artist._id}`}
                     key={artist._id}
                     className="bg-zinc-800/40 p-4 rounded-md hover:bg-zinc-700/40 transition-all"
                   >
@@ -143,7 +144,7 @@ const SearchPage = () => {
                       {artist.name}
                     </p>
                     <p className="text-xs text-zinc-400 text-center">Artist</p>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </section>

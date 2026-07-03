@@ -58,6 +58,7 @@ export const LeftSideBar = () => {
       title: a.name,
       subtitle: "Artist",
       imageUrl: a.imageUrl,
+      to: `/artists/${a._id}`,
     }));
 
     let list: LibItem[];
