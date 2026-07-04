@@ -7,7 +7,7 @@ import { Artist } from "../models/artist.model.js";
 // until the User Playlists feature exists; `artists` fills in once "follow" does.
 export const getMyLibrary = async (req, res, next) => {
   try {
-    const user = await User.findOne({ clerkId: req.auth.userId })
+    const user = await User.findOne({ clerkId: req.auth().userId })
       .populate("savedAlbums")
       .populate("savedArtists");
 
@@ -32,7 +32,7 @@ export const toggleSavedAlbum = async (req, res, next) => {
     const album = await Album.findById(albumId);
     if (!album) return res.status(404).json({ message: "Album not found" });
 
-    const user = await User.findOne({ clerkId: req.auth.userId });
+    const user = await User.findOne({ clerkId: req.auth().userId });
     if (!user) return res.status(404).json({ message: "User not found" });
 
     const index = user.savedAlbums.findIndex((id) => id.equals(albumId));
@@ -61,7 +61,7 @@ export const toggleSavedArtist = async (req, res, next) => {
     const artist = await Artist.findById(artistId);
     if (!artist) return res.status(404).json({ message: "Artist not found" });
 
-    const user = await User.findOne({ clerkId: req.auth.userId });
+    const user = await User.findOne({ clerkId: req.auth().userId });
     if (!user) return res.status(404).json({ message: "User not found" });
 
     const index = user.savedArtists.findIndex((id) => id.equals(artistId));
