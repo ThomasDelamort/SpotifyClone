@@ -1,11 +1,13 @@
 import { axiosInstance } from "@/lib/axios";
-import type { User } from "@/types";
+import type { Message, User } from "@/types";
 import type { AxiosError } from "axios";
 import { create } from "zustand";
 import { io, type Socket } from "socket.io-client";
 
 interface ChatStore {
     users: User[];
+    messages: Message[];
+    selectedUser: User | null;
     isLoading: boolean;
     error: string | null;
     socket: Socket;
@@ -14,6 +16,9 @@ interface ChatStore {
     userActivities: Map<string, string>;
 
     fetchUsers: () => Promise<void>;
+    fetchMessages: (userId: string) => Promise<void>;
+    sendMessage: (receiverId: string, senderId: string, content: string) => Promise<void>;
+    setSelectedUser: (user: User | null) => void;
     initSocket: (userId: string) => void;
     disconnectSocket: () => void;
 }
@@ -21,12 +26,14 @@ interface ChatStore {
 const baseURL = import.meta.env.MODE === "development" ? "http://localhost:5000" : "/";
 
 const socket = io(baseURL, {
-    autoConnect: false, // only connect if user is authenticated
+    autoConnect: false,
     withCredentials: true,
 });
 
 export const useChatStore = create<ChatStore>((set, get) => ({
     users: [],
+    messages: [],
+    selectedUser: null,
     isLoading: false,
     error: null,
     socket: socket,
@@ -45,6 +52,29 @@ export const useChatStore = create<ChatStore>((set, get) => ({
             set({ isLoading: false });
         }
     },
+
+    fetchMessages: async (userId) => {
+        set({ isLoading: true, error: null });
+        try {
+            const response = await axiosInstance.get(`/messages/${userId}`);
+            set({ messages: response.data });
+        } catch (error) {
+            set({ error: (error as AxiosError<{ message: string }>).response?.data.message });
+        } finally {
+            set({ isLoading: false });
+        }
+    },
+
+    sendMessage: async (receiverId, _senderId, content) => {
+        try {
+            const response = await axiosInstance.post("/messages", { receiverId, content });
+            set((state) => ({ messages: [...state.messages, response.data] }));
+        } catch (error) {
+            set({ error: (error as AxiosError<{ message: string }>).response?.data.message });
+        }
+    },
+
+    setSelectedUser: (user) => set({ selectedUser: user, messages: [] }),
 
     initSocket: (userId) => {
         if (!get().isConnected) {
@@ -81,6 +111,10 @@ export const useChatStore = create<ChatStore>((set, get) => ({
                     newActivities.set(userId, activity);
                     return { userActivities: newActivities };
                 });
+            });
+
+            socket.on("receive_message", (message: Message) => {
+                set((state) => ({ messages: [...state.messages, message] }));
             });
 
             set({ isConnected: true });

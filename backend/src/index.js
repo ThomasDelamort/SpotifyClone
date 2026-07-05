@@ -4,9 +4,7 @@ import { clerkMiddleware } from "@clerk/express";
 import fileUpload from "express-fileupload";
 import path from "path";
 import cors from "cors";
-
 import { initializeSocket } from "./lib/socket.js";
-
 import { connectDB } from "./lib/db.js";
 import userRoutes from "./routes/user.route.js";
 import adminRoutes from "./routes/admin.route.js";
@@ -17,6 +15,7 @@ import artistRoutes from "./routes/artist.route.js";
 import searchRoutes from "./routes/search.route.js";
 import libraryRoutes from "./routes/library.route.js";
 import statsRoutes from "./routes/stat.route.js";
+import messageRoutes from "./routes/message.route.js";
 import { createServer } from "http";
 
 dotenv.config();
@@ -28,24 +27,26 @@ const PORT = process.env.PORT;
 const httpServer = createServer(app);
 initializeSocket(httpServer);
 
-app.use(
-  cors({
-    origin: "http://localhost:3000",
-    credentials: true,
-  }),
-);
+if (process.env.NODE_ENV !== "production") {
+    app.use(
+        cors({
+            origin: "http://localhost:3000",
+            credentials: true,
+        })
+    );
+}
 
 app.use(express.json());
 app.use(clerkMiddleware());
 app.use(
-  fileUpload({
-    useTempFiles: true,
-    tempFileDir: path.join(__dirname, "tmp"),
-    createParentPath: true,
-    limits: {
-      fileSize: 10 * 1024 * 1024,
-    },
-  }),
+    fileUpload({
+        useTempFiles: true,
+        tempFileDir: path.join(__dirname, "tmp"),
+        createParentPath: true,
+        limits: {
+            fileSize: 10 * 1024 * 1024,
+        },
+    })
 );
 
 app.use("/api/users", userRoutes);
@@ -57,19 +58,26 @@ app.use("/api/artists", artistRoutes);
 app.use("/api/search", searchRoutes);
 app.use("/api/library", libraryRoutes);
 app.use("/api/stats", statsRoutes);
+app.use("/api/messages", messageRoutes);
+
+// --- serve the built frontend in production (single-origin) ---
+if (process.env.NODE_ENV === "production") {
+    const distPath = path.join(__dirname, "../frontend/dist");
+    app.use(express.static(distPath));
+    // SPA fallback: any non-API route returns index.html
+    app.use((req, res, next) => {
+        if (req.path.startsWith("/api")) return next();
+        res.sendFile(path.join(distPath, "index.html"));
+    });
+}
 
 app.use((err, req, res, next) => {
-  res
-    .status(500)
-    .json({
-      message:
-        process.env.NODE_ENV === "production"
-          ? "Internal server error"
-          : err.message,
+    res.status(500).json({
+        message: process.env.NODE_ENV === "production" ? "Internal server error" : err.message,
     });
 });
 
 httpServer.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-  connectDB();
+    console.log(`Server is running on port ${PORT}`);
+    connectDB();
 });
