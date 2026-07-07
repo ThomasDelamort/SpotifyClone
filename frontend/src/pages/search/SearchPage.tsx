@@ -74,6 +74,38 @@ const SearchPage = () => {
             </p>
           )}
 
+          {/* Artists */}
+          {artists.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold mb-4">Artists</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+                {artists.map((artist) => (
+                  <Link
+                    to={`/artists/${artist._id}`}
+                    key={artist._id}
+                    className="bg-zinc-800/40 p-4 rounded-md hover:bg-zinc-700/40 transition-all"
+                  >
+                    {artist.imageUrl ? (
+                      <img
+                        src={artist.imageUrl}
+                        alt={artist.name}
+                        className="aspect-square w-full rounded-full object-cover mb-3"
+                      />
+                    ) : (
+                      <div className="aspect-square w-full rounded-full mb-3 bg-zinc-700 flex items-center justify-center text-2xl font-bold text-zinc-400">
+                        {artist.name.charAt(0)}
+                      </div>
+                    )}
+                    <p className="font-medium truncate text-center">
+                      {artist.name}
+                    </p>
+                    <p className="text-xs text-zinc-400 text-center">Artist</p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
+
           {/* Songs */}
           {songs.length > 0 && (
             <section className="mb-8">
@@ -114,38 +146,6 @@ const SearchPage = () => {
                     </div>
                   );
                 })}
-              </div>
-            </section>
-          )}
-
-          {/* Artists */}
-          {artists.length > 0 && (
-            <section className="mb-8">
-              <h2 className="text-xl sm:text-2xl font-bold mb-4">Artists</h2>
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-                {artists.map((artist) => (
-                  <Link
-                    to={`/artists/${artist._id}`}
-                    key={artist._id}
-                    className="bg-zinc-800/40 p-4 rounded-md hover:bg-zinc-700/40 transition-all"
-                  >
-                    {artist.imageUrl ? (
-                      <img
-                        src={artist.imageUrl}
-                        alt={artist.name}
-                        className="aspect-square w-full rounded-full object-cover mb-3"
-                      />
-                    ) : (
-                      <div className="aspect-square w-full rounded-full mb-3 bg-zinc-700 flex items-center justify-center text-2xl font-bold text-zinc-400">
-                        {artist.name.charAt(0)}
-                      </div>
-                    )}
-                    <p className="font-medium truncate text-center">
-                      {artist.name}
-                    </p>
-                    <p className="text-xs text-zinc-400 text-center">Artist</p>
-                  </Link>
-                ))}
               </div>
             </section>
           )}
