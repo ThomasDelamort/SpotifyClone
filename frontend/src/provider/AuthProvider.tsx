@@ -11,9 +11,6 @@ const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const { checkAdminStatus } = useAuthStore();
   const { initSocket, disconnectSocket } = useChatStore();
 
-  // Attach a FRESH Clerk token to every request. Clerk tokens expire (~60s),
-  // so fetching once at startup means later requests send an expired token → 401.
-  // getToken() returns a cached token and refreshes it automatically when needed.
   useEffect(() => {
     const interceptor = axiosInstance.interceptors.request.use(
       async (config) => {
