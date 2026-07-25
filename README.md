@@ -186,15 +186,27 @@ npm run backfill:artists # creates Artist records and links songs/albums to them
 
 ## Run with Docker
 
-A development stack (hot-reloading backend + frontend, and an optional local MongoDB) is
-provided and works the same on Windows, macOS, and Linux. From the repo root:
+The frontend and backend build into **separate images** and run as separate containers, with an
+optional local MongoDB. Both stacks work the same on Windows, macOS, and Linux.
+
+**Development** — hot-reloading vite + nodemon, from the repo root:
 
 ```bash
 docker compose up --build
 ```
 
-Frontend → `http://localhost:3000`, backend → `http://localhost:5000`. The same `backend/.env`
-and `frontend/.env` are used. See **`DOCKER.md`** for per-OS prerequisites, choosing between the
+Frontend → `http://localhost:3000`, backend → `http://localhost:5000`, using the existing
+`backend/.env` and `frontend/.env.local`.
+
+**Production** — nginx serves the built SPA and reverse-proxies `/api` and `/socket.io` to the
+API container, so everything is behind one port:
+
+```bash
+cp .env.docker.example .env    # then fill it in
+docker compose -f docker-compose.prod.yml up --build
+```
+
+App → `http://localhost:8080`. See **`DOCKER.md`** for per-OS prerequisites, choosing between the
 bundled MongoDB and Atlas, and seeding inside the container.
 
 ---

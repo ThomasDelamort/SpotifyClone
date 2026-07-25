@@ -49,6 +49,9 @@ app.use(
     })
 );
 
+// liveness probe for the container healthcheck / nginx upstream
+app.get("/api/health", (req, res) => res.json({ status: "ok" }));
+
 app.use("/api/users", userRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/admin", adminRoutes);
@@ -60,16 +63,9 @@ app.use("/api/library", libraryRoutes);
 app.use("/api/stats", statsRoutes);
 app.use("/api/messages", messageRoutes);
 
-// --- serve the built frontend in production (single-origin) ---
-if (process.env.NODE_ENV === "production") {
-    const distPath = path.join(__dirname, "../frontend/dist");
-    app.use(express.static(distPath));
-    // SPA fallback: any non-API route returns index.html
-    app.use((req, res, next) => {
-        if (req.path.startsWith("/api")) return next();
-        res.sendFile(path.join(distPath, "index.html"));
-    });
-}
+// This service is API-only. The SPA is built into its own image and served by
+// nginx, which also proxies /api and /socket.io back here — so the browser sees
+// a single origin and this process never touches static files.
 
 app.use((err, req, res, next) => {
     res.status(500).json({

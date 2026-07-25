@@ -1,5 +1,13 @@
+# Keeps secrets and host-built artifacts out of the build context and the image.
 node_modules
-npm-debug.log
+npm-debug.log*
 .env
+.env.*
+!.env.example
 tmp
 .git
+.gitignore
+*.md
+Dockerfile
+.dockerignore
+test-dns..js
