@@ -9,6 +9,7 @@ import {
   ArrowDownUp,
   X,
   Music2,
+  Disc3,
 } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button.tsx";
 import { useEffect, useMemo, useState } from "react";
@@ -102,6 +103,11 @@ export const LeftSideBar = () => {
             to="/search"
             icon={<Search className="mr-2 size-5" />}
             label="Search"
+          />
+          <NavLink
+            to="/singles"
+            icon={<Disc3 className="mr-2 size-5" />}
+            label="Singles"
           />
         </div>
       </div>
