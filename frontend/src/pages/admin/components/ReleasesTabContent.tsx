@@ -5,32 +5,32 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Music } from "lucide-react";
-import SongsTable from "@/pages/admin/components/SongsTable";
-import AddSongDialog from "@/pages/admin/components/AddSongDialog";
+import { Library } from "lucide-react";
+import AddReleaseDialog from "@/pages/admin/components/AddReleaseDialog";
+import ReleasesTable from "@/pages/admin/components/ReleasesTable";
 
-const SongsTabContent = () => {
+const ReleasesTabContent = () => {
   return (
     <Card className="bg-zinc-800/50 border-zinc-700/50">
       <CardHeader>
         <div className="flex items-center justify-between">
           <div>
             <CardTitle className="flex items-center gap-2">
-              <Music className="size-5 text-emerald-500" />
-              All Tracks
+              <Library className="size-5 text-violet-500" />
+              Releases
             </CardTitle>
             <CardDescription>
-              Every track in the catalogue, whether it sits on an album or stands alone
-              as a single.
+              Albums and singles. One track publishes a single, several publish an album.
             </CardDescription>
           </div>
-          <AddSongDialog />
+          <AddReleaseDialog />
         </div>
       </CardHeader>
+
       <CardContent>
-        <SongsTable />
+        <ReleasesTable />
       </CardContent>
     </Card>
   );
 };
-export default SongsTabContent;
+export default ReleasesTabContent;

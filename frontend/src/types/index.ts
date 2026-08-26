@@ -33,6 +33,8 @@ export interface Artist {
 export interface Stats{
     totalSongs: number;
     totalAlbums: number;
+    // singles are tracks with no albumId — they have no Album record of their own
+    totalSingles: number;
     totalUsers: number;
     totalArtists: number;
 }
