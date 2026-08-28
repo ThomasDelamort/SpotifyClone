@@ -1,45 +1,19 @@
-import { Song } from "../models/song.model.js";
-import { Album } from "../models/album.model.js";
-import { Artist } from "../models/artist.model.js";
-import cloudinary from "../lib/cloudinary.js";
+import {
+  createSong as createSongProvider,
+  uploadToCloudinary,
+  toArray,
+  deleteSong as deleteSongProvider,
+  createAlbum as createAlbumProvider,
+  deleteAlbum as deleteAlbumProvider,
+  findArtistByName,
+  createArtist as createArtistProvider,
+  deleteArtist as deleteArtistProvider,
+  asFileArray,
+  parseTracks,
+  createAlbumRelease,
+} from "../providers/admin.provider.js";
 
-const uploadToCloudinary = async (file) => {
-  try {
-    const result = await cloudinary.uploader.upload(file.tempFilePath, {
-      resource_type: "auto",
-    });
-    return result.secure_url;
-  } catch (err) {
-    console.log("Error in uploadToCloudinary", err);
-    throw new Error("Error uploading to cloudinary");
-  }
-};
-
-const toArray = (value) => {
-  if (value == null) return [];
-  if (Array.isArray(value)) {
-    return value.map((v) => `${v}`.trim()).filter(Boolean);
-  }
-  if (typeof value === "string") {
-    const trimmed = value.trim();
-    if (trimmed.startsWith("[")) {
-      try {
-        const parsed = JSON.parse(trimmed);
-        if (Array.isArray(parsed))
-          return parsed.map((v) => `${v}`.trim()).filter(Boolean);
-      } catch {
-        // fall through to comma-splitting
-      }
-    }
-    return trimmed
-      .split(",")
-      .map((v) => v.trim())
-      .filter(Boolean);
-  }
-  return [`${value}`];
-};
-
-export const createSong = async (req, res, next) => {
+export const submitSong = async (req, res, next) => {
   try {
     if (!req.files || !req.files.audioFile || !req.files.imageFile) {
       return res.status(400).json({ message: "Please upload all files" });
@@ -59,28 +33,23 @@ export const createSong = async (req, res, next) => {
     const audioUrl = await uploadToCloudinary(audioFile);
     const imageUrl = await uploadToCloudinary(imageFile);
 
-    const song = new Song({
+    const song = await createSongProvider(
       title,
-      artist: artists,
-      artistId: toArray(artistId),
+      artists,
+      toArray(artistId),
       audioUrl,
       imageUrl,
       duration,
-      albumId: albumId || null,
+      albumId,
+    );
+
+    res.status(201).json({
+      ok: true,
+      message: "Song created successfully",
+      data: song,
     });
-
-    await song.save();
-
-    // keep the field name consistent with deleteSong ($pull: { songs })
-    if (albumId) {
-      await Album.findByIdAndUpdate(albumId, {
-        $push: { songs: song._id },
-      });
-    }
-
-    res.status(201).json(song);
   } catch (err) {
-    console.log("Error in createSong", err);
+    console.log("Error in submitSong", err);
     next(err);
   }
 };
@@ -89,18 +58,10 @@ export const deleteSong = async (req, res, next) => {
   try {
     const { id } = req.params;
 
-    const song = await Song.findById(id);
+    const song = await deleteSongProvider(id);
     if (!song) {
       return res.status(404).json({ message: "Song not found" });
     }
-
-    if (song.albumId) {
-      await Album.findByIdAndUpdate(song.albumId, {
-        $pull: { songs: song._id },
-      });
-    }
-
-    await Song.findByIdAndDelete(id);
 
     res.status(200).json({ message: "Song deleted successfully." });
   } catch (err) {
@@ -120,15 +81,13 @@ export const createAlbum = async (req, res, next) => {
 
     const imageUrl = await uploadToCloudinary(imageFile);
 
-    const album = new Album({
+    const album = await createAlbumProvider(
       title,
       artist,
-      artistId: artistId || null,
+      artistId,
       imageUrl,
       releaseYear,
-    });
-
-    await album.save();
+    );
 
     res.status(201).json(album);
   } catch (err) {
@@ -141,8 +100,7 @@ export const deleteAlbum = async (req, res, next) => {
   try {
     const { id } = req.params;
 
-    await Song.deleteMany({ albumId: id });
-    await Album.findByIdAndDelete(id);
+    await deleteAlbumProvider(id);
 
     res.status(200).json({ message: "Album deleted successfully" });
   } catch (err) {
@@ -159,7 +117,8 @@ export const createArtist = async (req, res, next) => {
       return res.status(400).json({ message: "Artist name is required" });
     }
 
-    const existing = await Artist.findOne({ name: name.trim() });
+    const trimmedName = name.trim();
+    const existing = await findArtistByName(trimmedName);
     if (existing) {
       return res
         .status(409)
@@ -171,8 +130,7 @@ export const createArtist = async (req, res, next) => {
       imageUrl = await uploadToCloudinary(req.files.imageFile);
     }
 
-    const artist = new Artist({ name: name.trim(), imageUrl });
-    await artist.save();
+    const artist = await createArtistProvider(trimmedName, imageUrl);
 
     res.status(201).json(artist);
   } catch (err) {
@@ -185,18 +143,10 @@ export const deleteArtist = async (req, res, next) => {
   try {
     const { id } = req.params;
 
-    const artist = await Artist.findById(id);
+    const artist = await deleteArtistProvider(id);
     if (!artist) {
       return res.status(404).json({ message: "Artist not found" });
     }
-
-    // detach the reference from songs/albums but keep the legacy `artist` string(s) intact
-    await Promise.all([
-      Song.updateMany({ artistId: id }, { $pull: { artistId: id } }),
-      Album.updateMany({ artistId: id }, { $set: { artistId: null } }),
-    ]);
-
-    await Artist.findByIdAndDelete(id);
 
     res.status(200).json({ message: "Artist deleted successfully" });
   } catch (err) {
@@ -215,26 +165,7 @@ export const checkAdmin = async (req, res, next) => {
 // this catalogue stores as a Song with no albumId — there is no Album record,
 // and the cover uploaded here becomes the song's own artwork.
 
-const asFileArray = (files) => {
-  if (!files) return [];
-  return Array.isArray(files) ? files : [files];
-};
-
-const parseTracks = (raw) => {
-  if (!raw) return [];
-  if (Array.isArray(raw)) return raw;
-  try {
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
-};
-
 export const createRelease = async (req, res, next) => {
-  // track what we persist so a mid-flight failure doesn't leave a half-built release
-  const created = { songIds: [], albumId: null };
-
   try {
     const imageFile = req.files?.imageFile;
     const audioFiles = asFileArray(req.files?.audioFiles);
@@ -308,68 +239,32 @@ export const createRelease = async (req, res, next) => {
 
       const trackArtists = toArray(track?.artist);
 
-      const song = await Song.create({
-        title: trackTitle,
-        artist: trackArtists.length > 0 ? trackArtists : releaseArtists,
-        artistId: toArray(artistId),
+      const song = await createSongProvider(
+        trackTitle,
+        trackArtists.length > 0 ? trackArtists : releaseArtists,
+        toArray(artistId),
+        audioUrls[0],
         imageUrl,
-        audioUrl: audioUrls[0],
-        duration: Number(track?.duration) || 0,
-        albumId: null,
-      });
+        Number(track?.duration) || 0,
+        null,
+      );
 
       return res.status(201).json({ type: "single", song });
     }
 
     // --- album: one record, tracks attached in upload order ---
-    const album = await Album.create({
-      title: `${title}`.trim(),
-      // Album.artist is a single string; Song.artist is a list
-      artist: releaseArtists.join(", "),
-      artistId: artistId || null,
+    const { album, songs } = await createAlbumRelease({
+      title,
+      releaseArtists,
+      artistId,
       imageUrl,
-      releaseYear: Number(releaseYear),
+      releaseYear,
+      tracks,
+      audioUrls,
     });
-    created.albumId = album._id;
-
-    // allSettled, not all: if one track fails we still need the ids of the
-    // ones that landed, otherwise the rollback below leaves them orphaned
-    // pointing at an album it just deleted.
-    const results = await Promise.allSettled(
-      tracks.map((track, i) => {
-        const trackArtists = toArray(track?.artist);
-        return Song.create({
-          title: `${track?.title || `Track ${i + 1}`}`.trim(),
-          artist: trackArtists.length > 0 ? trackArtists : releaseArtists,
-          artistId: toArray(artistId),
-          imageUrl,
-          audioUrl: audioUrls[i],
-          duration: Number(track?.duration) || 0,
-          albumId: album._id,
-        });
-      }),
-    );
-
-    const songs = results
-      .filter((result) => result.status === "fulfilled")
-      .map((result) => result.value);
-    created.songIds = songs.map((song) => song._id);
-
-    const failed = results.find((result) => result.status === "rejected");
-    if (failed) throw failed.reason;
-
-    album.songs = created.songIds;
-    await album.save();
 
     res.status(201).json({ type: "album", album, songs });
   } catch (err) {
-    if (created.songIds.length > 0) {
-      await Song.deleteMany({ _id: { $in: created.songIds } }).catch(() => {});
-    }
-    if (created.albumId) {
-      await Album.findByIdAndDelete(created.albumId).catch(() => {});
-    }
-
     console.log("Error in createRelease", err);
     next(err);
   }
