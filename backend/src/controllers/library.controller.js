@@ -1,15 +1,18 @@
-import { User } from "../models/user.model.js";
-import { Album } from "../models/album.model.js";
-import { Artist } from "../models/artist.model.js";
+import {
+  getUserLibrary,
+  findUserByClerkId,
+  findAlbumById,
+  findArtistById,
+  toggleSavedAlbum as toggleSavedAlbumProvider,
+  toggleSavedArtist as toggleSavedArtistProvider,
+} from "../providers/library.provider.js";
 
 // GET /api/library  → the signed-in user's saved library
 // Returns a stable shape for all three sidebar pills. `playlists` stays empty
 // until the User Playlists feature exists; `artists` fills in once "follow" does.
 export const getMyLibrary = async (req, res, next) => {
   try {
-    const user = await User.findOne({ clerkId: req.auth().userId })
-      .populate("savedAlbums")
-      .populate("savedArtists");
+    const user = await getUserLibrary(req.auth().userId);
 
     if (!user) return res.status(404).json({ message: "User not found" });
 
@@ -29,24 +32,13 @@ export const toggleSavedAlbum = async (req, res, next) => {
   try {
     const { albumId } = req.params;
 
-    const album = await Album.findById(albumId);
+    const album = await findAlbumById(albumId);
     if (!album) return res.status(404).json({ message: "Album not found" });
 
-    const user = await User.findOne({ clerkId: req.auth().userId });
+    const user = await findUserByClerkId(req.auth().userId);
     if (!user) return res.status(404).json({ message: "User not found" });
 
-    const index = user.savedAlbums.findIndex((id) => id.equals(albumId));
-
-    let saved;
-    if (index === -1) {
-      user.savedAlbums.push(album._id);
-      saved = true;
-    } else {
-      user.savedAlbums.splice(index, 1);
-      saved = false;
-    }
-
-    await user.save();
+    const saved = await toggleSavedAlbumProvider(user, album);
     res.status(200).json({ saved });
   } catch (err) {
     next(err);
@@ -58,24 +50,13 @@ export const toggleSavedArtist = async (req, res, next) => {
   try {
     const { artistId } = req.params;
 
-    const artist = await Artist.findById(artistId);
+    const artist = await findArtistById(artistId);
     if (!artist) return res.status(404).json({ message: "Artist not found" });
 
-    const user = await User.findOne({ clerkId: req.auth().userId });
+    const user = await findUserByClerkId(req.auth().userId);
     if (!user) return res.status(404).json({ message: "User not found" });
 
-    const index = user.savedArtists.findIndex((id) => id.equals(artistId));
-
-    let saved;
-    if (index === -1) {
-      user.savedArtists.push(artist._id);
-      saved = true;
-    } else {
-      user.savedArtists.splice(index, 1);
-      saved = false;
-    }
-
-    await user.save();
+    const saved = await toggleSavedArtistProvider(user, artist);
     res.status(200).json({ saved });
   } catch (err) {
     next(err);

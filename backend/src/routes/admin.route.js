@@ -1,6 +1,6 @@
 import { Router } from "express";
 import {
-    createSong,
+    submitSong,
     deleteSong,
     createAlbum,
     deleteAlbum,
@@ -8,7 +8,7 @@ import {
     deleteArtist,
     createRelease,
     checkAdmin,
-} from "../controller/admin.controller.js";
+} from "../controllers/admin.controller.js";
 import { protectRoute, requireAdmin } from "../middleware/auth.middleware.js";
 
 const router = Router();
@@ -20,7 +20,7 @@ router.get("/check", checkAdmin);
 // cover + one or more tracks in a single upload: many tracks -> album, one -> single
 router.post("/releases", createRelease);
 
-router.post("/songs", createSong);
+router.post("/songs", submitSong);
 router.delete("/songs/:id", deleteSong);
 
 router.post("/albums", createAlbum);

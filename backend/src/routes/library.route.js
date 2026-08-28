@@ -4,7 +4,7 @@ import {
   getMyLibrary,
   toggleSavedAlbum,
   toggleSavedArtist,
-} from "../controller/library.controller.js";
+} from "../controllers/library.controller.js";
 
 const router = Router();
 

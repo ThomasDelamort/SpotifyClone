@@ -2,7 +2,7 @@ backend/.env
 /node_modules
 /.claudes
 ./backend/src/seed/
-
+backend/tmp/
 
 # Created by https://www.gitignore.io/api/node,vim,git,macos,linux,sublimetext
 
